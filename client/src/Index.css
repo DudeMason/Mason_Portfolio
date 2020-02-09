@@ -1,0 +1,218 @@
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.tripDiv {
+  background-color: #f1f1f1;
+}
+
+.appLight {
+  background-image: url('./images/Background.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: calc(100vh);
+  overflow-y: auto;
+}
+
+.appDark {
+  background-color: #252525;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: calc(100vh);
+  overflow-y: auto;
+}
+
+.homeItem:hover .homeIcon {
+  animation: spinner 1.25s infinite;
+  transform: rotate(360deg);
+}
+@keyframes spinner {
+  from {
+    transform: rotate(0deg)
+  };
+  to  {
+    transform: rotate(360deg)
+  };
+}
+
+.aboutItem:hover .aboutIcon {
+  animation: grow .75s;
+  transform: scale(1.5);
+}
+  @keyframes grow {
+    from {
+      transform: scale(1.0)
+    };
+    to {
+      transform: scale(1.5)
+    };
+  }
+
+.contactItem:hover .contactIcon {
+  animation: tilt .1s;
+  transform: rotate(-180deg);
+  animation-fill-mode: forwards;
+}
+  @keyframes tilt {
+    from {
+      transform: rotate(0deg)
+    };
+    to {
+      transform: rotate(-180deg)
+    };
+  }
+
+.computerItem:hover .computerIcon {
+  -webkit-animation: action .3s infinite alternate;
+  animation: action .3s infinite alternate;
+}
+  @-webkit-keyframes action {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-3px); }
+  }
+  @keyframes action {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-3px); }
+  }
+
+.blogItem:hover .blogIcon {
+  animation: tilt .3s;
+  transform: rotate(45deg);
+  animation-fill-mode: forwards;
+}
+  @keyframes tilt {
+    from {
+      transform: rotate(0deg)
+    };
+    to {
+      transform: rotate(45deg)
+    };
+  }
+
+:root {
+  --secondaryColor: #000000;
+}
+.a {
+  color: var(--secondaryColor);
+  text-decoration: none;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.a:hover {
+  color: transparent;
+  -webkit-text-stroke: 1px var(--secondaryColor);
+}
+@supports not(-webkit-text-stroke: 2px red) {
+  .a:hover {
+    text-shadow:
+      3px 3px 0 var(--secondaryColor),
+      -1px -1px 0 var(--secondaryColor),
+      1px -1px 0 var(--secondaryColor),
+      -1px 1px 0 var(--secondaryColor),
+      1px 1px 0 var(--secondaryColor);
+  }
+}
+
+:root {
+  --mainColor: #ffffff;
+}
+.ap {
+  color: var(--mainColor);
+  text-decoration: none;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.ap:hover {
+  color: transparent;
+  -webkit-text-stroke: .6px var(--mainColor);
+}
+@supports not(-webkit-text-stroke: 2px red) {
+  .ap:hover {
+    text-shadow:
+      3px 3px 0 var(--mainColor),
+      -1px -1px 0 var(--mainColor),
+      1px -1px 0 var(--mainColor),
+      -1px 1px 0 var(--mainColor),
+      1px 1px 0 var(--mainColor);
+  }
+}
+
+:root {
+  --thirdColor: #000000;
+}
+.WD {
+  background: linear-gradient(to bottom, var(--thirdColor) 0%, var(--thirdColor) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+  color: #000;
+  margin-left: 25px;
+  text-decoration: none;
+}
+
+.WD:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23000000' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+}
+
+:root {
+  --fourthColor: #ffffff;
+}
+
+.wd {
+  background: linear-gradient(to bottom, var(--fourthColor) 0%, var(--fourthColor) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+  color: #fff;
+  margin-left: 25px;
+  text-decoration: none;
+  text-align: justify;
+}
+
+.wd:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ffffff' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+}
+
+.h1 {
+    color: yellow;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.computerItem {
+  font-size: 7.5pt;
+}
+.homeItem {
+  font-size: 7.5pt;
+}
+.aboutItem {
+  font-size: 7.5pt;
+}
+.contactItem {
+  font-size: 7.5pt;
+}
+.blogItem {
+  font-size: 7.5pt;
+}
+.drop {
+  font-size: 7pt;
+}
+
+.modals {
+  position: absolute;
+  left: 1%;
+  right: 1%;
+}
