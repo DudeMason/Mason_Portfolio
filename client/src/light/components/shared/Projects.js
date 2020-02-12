@@ -10,6 +10,10 @@ import MapIcon from '../../../images/MapIcon.png';
 import Janitor from '../../../images/Janitor.png';
 import AppEst from '../../../images/AppEst.png';
 import GithubIcon from '../../../images/GithubIcon.png';
+import Bass from '../../../images/Bass.png';
+import Counter from '../../../images/Counter.png';
+import LaravelContact from '../../../images/LaravelContact.png';
+import RubyContact from '../../../images/RubyContact.png';
 
 const Projects = () => (
 
@@ -147,6 +151,74 @@ const Projects = () => (
 
                 </List>
               </Link>
+
+            </Grid.Column>
+          </Grid.Row>
+          <Grid.Row>
+            <Grid.Column>
+
+              <a href='https://simplereactcounter.netlify.com' target='_blank' rel='noopener noreferrer'>
+                <List selection verticalAlign='middle' align='center' relaxed='very' size='big'>
+
+                  <List.Item>
+                    <Image size='mini' src={Counter} alt='Counter'/>
+                    <List.Content>
+                      <List.Header>Simple React Counter</List.Header>
+                    </List.Content>
+                  </List.Item>
+
+                </List>
+              </a>
+
+            </Grid.Column>
+            <Grid.Column>
+
+              <a href='https://stringthing.netlify.com' target='_blank' rel='noopener noreferrer'>
+                <List selection verticalAlign='middle' align='center' relaxed='very' size='big'>
+
+                  <List.Item>
+                    <Image size='mini' src={Bass} alt='Music'/>
+                    <List.Content>
+                      <List.Header>String Thing</List.Header>
+                    </List.Content>
+                  </List.Item>
+
+                </List>
+              </a>
+
+            </Grid.Column>
+          </Grid.Row>
+          <Grid.Row>
+            <Grid.Column>
+
+              <a href='https://repl.it/@MasonMan/Ruby-Contact-List' target='_blank' rel='noopener noreferrer'>
+                <List selection verticalAlign='middle' align='center' relaxed='very' size='big'>
+
+                  <List.Item>
+                    <Image size='mini' src={RubyContact} alt='Counter'/>
+                    <List.Content>
+                      <List.Header>Ruby Contact List</List.Header>
+                    </List.Content>
+                  </List.Item>
+
+                </List>
+              </a>
+
+            </Grid.Column>
+            <Grid.Column>
+
+              <a href='https://laravelcontactlist.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
+                <List selection verticalAlign='middle' align='center' relaxed='very' size='big'>
+
+                  <List.Item>
+                    <Image size='mini' src={LaravelContact} alt='Music'/>
+                    <List.Content>
+                      <List.Header>Laravel Contact List</List.Header>
+                    </List.Content>
+                  </List.Item>
+
+                </List>
+              </a>
 
             </Grid.Column>
           </Grid.Row>
