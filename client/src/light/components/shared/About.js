@@ -105,18 +105,20 @@ const panes = [
           I still consider myself quite the newb!
         </p>
         <br/>
-        <p>Ruby</p>
-        <Progress percent={90} indicating size='tiny'/>
-        <p>JavaScript</p>
-        <Progress percent={80} indicating size='tiny'/>
-        <p>HTML</p>
+        <p>Laravel (PHP)</p>
         <Progress percent={65} indicating size='tiny'/>
+        <p>Ruby on Rails</p>
+        <Progress percent={80} indicating size='tiny'/>
+        <p>React.js</p>
+        <Progress percent={85} indicating size='tiny'/>
+        <p>HTML</p>
+        <Progress percent={70} indicating size='tiny'/>
         <p>CSS</p>
-        <Progress percent={55} indicating size='tiny'/>
+        <Progress percent={57} indicating size='tiny'/>
         <p>Cooking <i style={{fontSize: 7}}>hehe</i></p>
         <Progress percent={10} indicating size='tiny'/>
         <p>Spanish</p>
-        <Progress percent={99} indicating size='tiny'/>
+        <Progress percent={95} indicating size='tiny'/>
       </Container>
     </Tab.Pane>
   },
