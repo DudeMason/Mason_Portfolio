@@ -154,7 +154,7 @@ const panes = [
               <Divider/>
               <Container textAlign='center'>
                 <p style={{fontSize: 16}}>
-                  My family is very close on both sides. We love to spend time together!
+                  My family is very close. We love to spend time together!
                 </p>
               </Container>
             </Modal.Header>
@@ -169,35 +169,11 @@ const panes = [
                     </Segment>
 
                     <Segment compact>
-                      <Popup content="This is my side of the family."
+                      <Popup content="This is my family now."
                         trigger={<Image fluid src={Fam}/>}
                         position='left center'/>
                     </Segment>
 
-                    <Segment compact>
-                      <Popup content="This is my mom and her mom the day we got married!"
-                        trigger={<Image fluid src={Moms}/>}
-                        position='left center'/>
-                    </Segment>
-
-                    <Segment compact>
-                      <Popup content="We got married in the Salt Lake City Temple"
-                        trigger={<Image fluid src={Temple}/>}
-                        position='left center'/>
-                    </Segment>
-                </Grid.Column>
-                <Grid.Column>
-                    <Segment compact>
-                      <Popup content="This is my wife!! ♥︎"
-                        trigger={<Image fluid src={Lagoon}/>}
-                        position='right center'/>
-                    </Segment>
-
-                    <Segment compact>
-                      <Popup content="We like to be silly."
-                        trigger={<Image fluid src={Bike}/>}
-                        position='right center'/>
-                    </Segment>
                 </Grid.Column>
 
               </Grid>
