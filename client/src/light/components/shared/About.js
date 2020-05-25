@@ -167,13 +167,14 @@ const panes = [
                         trigger={<Image fluid src={FamBam}/>}
                         position='left center'/>
                     </Segment>
+                  </Grid.Column>
 
+                  <Grid.Column>
                     <Segment compact>
                       <Popup content="This is my family now."
                         trigger={<Image fluid src={Fam}/>}
                         position='left center'/>
                     </Segment>
-
                 </Grid.Column>
 
               </Grid>

@@ -172,6 +172,11 @@ const panes = [
                       </List.Item>
                     </Segment>
 
+                  </List>
+                </Grid.Column>
+                <Grid.Column>
+                  <List>
+                  
                     <Segment compact>
                       <List.Item>
                         <Popup content="This is my family now."
