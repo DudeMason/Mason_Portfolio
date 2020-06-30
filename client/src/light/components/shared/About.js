@@ -37,9 +37,7 @@ const panes = [
                   I'm from Utah! I love it here.
                   My parents are great & honorable people.
                   They raised me on good principles.
-                  I have three awesome sisters and we're all married!
-                  My wife is from Mexico and she is SOOO good to me.
-                  I love her <u>very</u> much.
+                  I have three awesome sisters and they're all married!
                 </p>
                 <p style={{fontSize: 16}}>
                   I've been struggling in life to find a career path
