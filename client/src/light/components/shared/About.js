@@ -34,18 +34,14 @@ const panes = [
             <Grid.Column style={{marginLeft: '34px'}}>
               <Container textAlign='justified'>
                 <p style={{fontSize: 16}}>
-                  I'm from Utah! I love it here.
-                  My parents are great & honorable people.
-                  They raised me on good principles.
-                  I have three awesome sisters and they're all married!
-                </p>
-                <p style={{fontSize: 16}}>
-                  I've been struggling in life to find a career path
-                  that fits my skills and abilities;
-                  a career path that I find joy and satisfaction in.
-                  I finally found that path in coding!
+                  I had been struggling for quite some time to find a career path
+                  that fits my particular skills and abilities;
+                  a career path that I could find joy and satisfaction in.
+                  <p>
+                    I finally found that path in coding!
+                  </p>
                   I signed up for a coding course and instantly fell in love.
-                  It was an immediate no-brainer that this is THE career path for me.
+                  It's a no-brainer that this is THE career path for me.
                 </p>
                 <p style={{fontSize: 21}}>
                   In this section of my website
