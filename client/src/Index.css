@@ -28,7 +28,7 @@ code {
   overflow-y: auto;
 }
 
-.homeItem:hover .homeIcon {
+.navItem:hover .homeIcon {
   animation: spinner 1.25s infinite;
   transform: rotate(360deg);
 }
@@ -41,7 +41,7 @@ code {
   };
 }
 
-.aboutItem:hover .aboutIcon {
+.navItem:hover .aboutIcon {
   animation: grow .75s;
   transform: scale(1.5);
 }
@@ -54,7 +54,7 @@ code {
     };
   }
 
-.contactItem:hover .contactIcon {
+.navItem:hover .contactIcon {
   animation: tilt .1s;
   transform: rotate(-180deg);
   animation-fill-mode: forwards;
@@ -68,7 +68,7 @@ code {
     };
   }
 
-.computerItem:hover .computerIcon {
+.navItem:hover .computerIcon {
   -webkit-animation: action .3s infinite alternate;
   animation: action .3s infinite alternate;
 }
@@ -81,7 +81,7 @@ code {
       100% { transform: translateY(-3px); }
   }
 
-.blogItem:hover .blogIcon {
+.navItem:hover .blogIcon {
   animation: tilt .3s;
   transform: rotate(45deg);
   animation-fill-mode: forwards;
@@ -192,21 +192,10 @@ code {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-.computerItem {
+.navItem {
   font-size: 7.5pt;
 }
-.homeItem {
-  font-size: 7.5pt;
-}
-.aboutItem {
-  font-size: 7.5pt;
-}
-.contactItem {
-  font-size: 7.5pt;
-}
-.blogItem {
-  font-size: 7.5pt;
-}
+
 .drop {
   font-size: 7pt;
 }

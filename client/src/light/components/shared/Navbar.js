@@ -20,7 +20,7 @@ const Navbar = ({toggleMode}) => (
           <Menu.Menu position='right'>
             <Grid.Column>
               <Link to='/'>
-                <Menu.Item className='homeItem'>
+                <Menu.Item className='navItem'>
                   <Icon className='homeIcon' name='medium m' color='blue' alt='Home'/>
                   Home
                 </Menu.Item>
@@ -29,7 +29,7 @@ const Navbar = ({toggleMode}) => (
 
             <Grid.Column>
               <Link to='/projects'>
-                <Menu.Item className='computerItem'>
+                <Menu.Item className='navItem'>
                   <Icon name='computer' className='computerIcon'/>
                   Projects
                 </Menu.Item>
@@ -38,7 +38,7 @@ const Navbar = ({toggleMode}) => (
 
             <Grid.Column>
               <Link to='/about'>
-                <Menu.Item className='aboutItem'>
+                <Menu.Item className='navItem'>
                   <Icon className='aboutIcon' name='user' color='green'/>
                   About Me
                 </Menu.Item>
@@ -47,7 +47,7 @@ const Navbar = ({toggleMode}) => (
 
             <Grid.Column>
               <Link to='/contact'>
-                <Menu.Item className='contactItem'>
+                <Menu.Item className='navItem'>
                   <Icon className='contactIcon' name='at' color='violet'/>
                   Contact
                 </Menu.Item>
@@ -56,7 +56,7 @@ const Navbar = ({toggleMode}) => (
 
             <Grid.Column>
               <Link to='/blog'>
-                <Menu.Item className='blogItem'>
+                <Menu.Item className='navItem'>
                   <Icon className='blogIcon' name='sticky note outline' color='orange'/>
                   Blog
                 </Menu.Item>
