@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a website representing my portfolio! It contains links to my finished projects and some info about me.
 
-Things you may want to cover:
+It also contains small blog posts about where I am in my career. I might not update it very often :/ hehe
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+It's written using ReactJS on Rails, using languages such as RUBY, JavaScript, HTML, and CSS.
