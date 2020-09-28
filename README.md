@@ -1,4 +1,4 @@
-# README
+# My Portfolio
 
 This is a website representing my portfolio! It contains links to my finished projects and some info about me.
 
