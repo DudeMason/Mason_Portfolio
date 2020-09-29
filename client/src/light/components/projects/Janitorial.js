@@ -15,7 +15,7 @@ const Janitorial = () => (
         <br/>
         The website is live
         <br/>
-        <a href='http://ceojanitorial.herokuapp.com/' target='_blank' rel="noopener noreferrer">-CEO Janitorial-</a>
+        <a href='https://www.ceojanitorial.com/' target='_blank' rel="noopener noreferrer">-CEO Janitorial-</a>
       </p>
       <div align='center'>
         Here are some photos.
