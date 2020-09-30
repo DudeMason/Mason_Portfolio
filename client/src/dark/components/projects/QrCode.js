@@ -7,11 +7,11 @@ import SiteQR from '../../../images/SiteQR.png';
 
 const QrCode = () => (
 	<div>
-		<h1><font color='white'>QR Code Generator</font></h1>
+		<h1 style="color: white; ">QR Code Generator</h1>
 		<Segment textAlign='center' inverted>
 			<p style={{fontSize: 18}}>This project was inspired by my wife.
 				She's a graphic designer and was looking for QR codes
-				for business cards she was desiging for a client.
+				for business cards she was designing for a client.
 				She couldn't find any free generators online
 				so she looked at me and said, "Your doing coding and stuff now, can't you make one?"
 				<br/>
