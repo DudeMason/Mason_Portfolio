@@ -1,9 +1,9 @@
 import React from 'react';
-import {Header, Image, Grid, Segment, List, Reveal} from 'semantic-ui-react';
+import { Header, Image, Grid, Segment, List, Reveal } from 'semantic-ui-react';
 import LaptopIcon from '../../../images/LaptopIcon.png';
 import MasonDev from '../../../images/MasonDev.png';
 import QrIcon from '../../../images/QrIcon.png';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import CartIcon from '../../../images/CartIcon.png';
 import CardIcon from '../../../images/CardIcon.png';
 import MapIcon from '../../../images/MapIcon.png';
@@ -16,216 +16,214 @@ import LaravelContact from '../../../images/LaravelContact.png';
 import RubyContact from '../../../images/RubyContact.png';
 
 const Projects = () => (
+	<div>
+		<div align='center'>
+			<Segment compact vertical>
+				<Reveal animated='fade'>
+					<Reveal.Content visible>
+						<Image style={{width: 120, marginLeft: 8, marginTop: 1}} src={LaptopIcon} alt='Laptop Icon'/>
+					</Reveal.Content>
+					<Reveal.Content hidden>
+						<Image style={{width: 130}} src={MasonDev} target='_blank'/>
+					</Reveal.Content>
+				</Reveal>
+			</Segment>
+		</div>
 
-  <div>
+		<div>
+			<Segment textAlign='center' inverted>
+				<Header as='h2' inverted textAlign='center'>
+					My Projects
+				</Header>
 
-    <div align='center'>
-      <Segment compact vertical>
-        <Reveal animated='fade'>
-          <Reveal.Content visible>
-            <Image style={{width: 120, marginLeft: 8, marginTop: 1}} src={LaptopIcon} alt='Laptop Icon'/>
-          </Reveal.Content>
-          <Reveal.Content hidden>
-            <Image style={{width: 130}} src={MasonDev} target='_blank'/>
-          </Reveal.Content>
-        </Reveal>
-      </Segment>
-    </div>
+				<List animated verticalAlign='middle' size='big' relaxed='very' divided>
 
-    <div>
-      <Segment textAlign='center' inverted>
-        <Header as='h2' inverted textAlign='center'>
-          My Projects
-        </Header>
+					<List.Item href="https://github.com/DudeMason" target='_blank'>
+						<Image size='mini' src={GithubIcon} alt='GitHub Icon'/>
+						<List.Content>
+							<List.Header style={{color: 'white'}}>Check My GitHub!</List.Header>
+						</List.Content>
+					</List.Item>
 
-        <List animated verticalAlign='middle' size='big' relaxed='very' divided>
+				</List>
+			</Segment>
 
-          <List.Item href="https://github.com/DudeMason" target='_blank'>
-            <Image size='mini' src={GithubIcon} alt='GitHub Icon'/>
-            <List.Content>
-              <List.Header style={{color: 'white'}}>Check My GitHub!</List.Header>
-            </List.Content>
-          </List.Item>
+			<Segment inverted>
+				<Grid columns={2} stackable>
+					<Grid.Row>
+						<Grid.Column>
 
-        </List>
-      </Segment>
+							<Link to='/store'>
+								<List animated verticalAlign='middle' align='center' relaxed='very' size='big'>
 
-      <Segment inverted>
-        <Grid columns={2} stackable>
-          <Grid.Row>
-            <Grid.Column>
+									<List.Item>
+										<Image size='mini' src={CartIcon} alt='Cart Icon'/>
+										<List.Content>
+											<List.Header style={{color: 'white'}}>Ruby Store</List.Header>
+										</List.Content>
+									</List.Item>
 
-              <Link to='/store'>
-                <List animated verticalAlign='middle' align='center' relaxed='very' size='big'>
+								</List>
+							</Link>
 
-                  <List.Item>
-                    <Image size='mini' src={CartIcon} alt='Cart Icon'/>
-                    <List.Content>
-                      <List.Header style={{color: 'white'}}>Ruby Store</List.Header>
-                    </List.Content>
-                  </List.Item>
+						</Grid.Column>
+						<Grid.Column>
 
-                </List>
-              </Link>
+							<Link to='/appEst'>
+								<List animated verticalAlign='middle' align='center' relaxed='very' size='big'>
 
-            </Grid.Column>
-            <Grid.Column>
+									<List.Item>
+										<Image size='mini' src={AppEst} alt='App Estimator'/>
+										<List.Content>
+											<List.Header style={{color: 'white'}}>Application Estimator</List.Header>
+										</List.Content>
+									</List.Item>
 
-              <Link to='/appEst'>
-                <List animated verticalAlign='middle' align='center' relaxed='very' size='big'>
+								</List>
+							</Link>
 
-                  <List.Item>
-                    <Image size='mini' src={AppEst} alt='App Estimator'/>
-                    <List.Content>
-                      <List.Header style={{color: 'white'}}>Application Estimator</List.Header>
-                    </List.Content>
-                  </List.Item>
+						</Grid.Column>
+					</Grid.Row>
+					<Grid.Row>
+						<Grid.Column>
 
-                </List>
-              </Link>
+							<Link to='/casino'>
+								<List animated verticalAlign='middle' align='center' relaxed='very' size='big'>
 
-            </Grid.Column>
-          </Grid.Row>
-          <Grid.Row>
-            <Grid.Column>
+									<List.Item>
+										<Image size='mini' src={CardIcon} alt='Card Icon'/>
+										<List.Content>
+											<List.Header style={{color: 'white'}}>Small Ruby Casino</List.Header>
+										</List.Content>
+									</List.Item>
 
-              <Link to='/casino'>
-                <List animated verticalAlign='middle' align='center' relaxed='very' size='big'>
+								</List>
+							</Link>
 
-                  <List.Item>
-                    <Image size='mini' src={CardIcon} alt='Card Icon'/>
-                    <List.Content>
-                      <List.Header style={{color: 'white'}}>Small Ruby Casino</List.Header>
-                    </List.Content>
-                  </List.Item>
+						</Grid.Column>
+						<Grid.Column>
 
-                </List>
-              </Link>
+							<Link to='/trip'>
+								<List animated verticalAlign='middle' align='center' relaxed='very' size='big'>
 
-            </Grid.Column>
-            <Grid.Column>
+									<List.Item>
+										<Image size='mini' src={MapIcon} alt='Map Icon'/>
+										<List.Content>
+											<List.Header style={{color: 'white'}}>Trip Tracker</List.Header>
+										</List.Content>
+									</List.Item>
 
-              <Link to='/trip'>
-                <List animated verticalAlign='middle' align='center' relaxed='very' size='big'>
+								</List>
+							</Link>
 
-                  <List.Item>
-                    <Image size='mini' src={MapIcon} alt='Map Icon'/>
-                    <List.Content>
-                      <List.Header style={{color: 'white'}}>Trip Tracker</List.Header>
-                    </List.Content>
-                  </List.Item>
+						</Grid.Column>
+					</Grid.Row>
+					<Grid.Row>
+						<Grid.Column>
 
-                </List>
-              </Link>
+							<Link to='/qrcode'>
+								<List animated verticalAlign='middle' align='center' relaxed='very' size='big'>
 
-            </Grid.Column>
-          </Grid.Row>
-          <Grid.Row>
-            <Grid.Column>
+									<List.Item>
+										<Image size='mini' src={QrIcon} alt='QR Icon'/>
+										<List.Content>
+											<List.Header style={{color: 'white'}}>QR Code Generator</List.Header>
+										</List.Content>
+									</List.Item>
 
-              <Link to='/qrcode'>
-                <List animated verticalAlign='middle' align='center' relaxed='very' size='big'>
+								</List>
+							</Link>
 
-                  <List.Item>
-                    <Image size='mini' src={QrIcon} alt='QR Icon'/>
-                    <List.Content>
-                      <List.Header style={{color: 'white'}}>QR Code Generator</List.Header>
-                    </List.Content>
-                  </List.Item>
+						</Grid.Column>
+						<Grid.Column>
 
-                </List>
-              </Link>
+							<Link to='/janitorial'>
+								<List animated verticalAlign='middle' align='center' relaxed='very' size='big'>
 
-            </Grid.Column>
-            <Grid.Column>
+									<List.Item>
+										<Image size='mini' src={Janitor} alt='Mop & Bucket'/>
+										<List.Content>
+											<List.Header style={{color: 'white'}}>CEO Janitorial</List.Header>
+										</List.Content>
+									</List.Item>
 
-              <Link to='/janitorial'>
-                <List animated verticalAlign='middle' align='center' relaxed='very' size='big'>
+								</List>
+							</Link>
 
-                  <List.Item>
-                    <Image size='mini' src={Janitor} alt='Mop & Bucket'/>
-                    <List.Content>
-                      <List.Header style={{color: 'white'}}>CEO Janitorial</List.Header>
-                    </List.Content>
-                  </List.Item>
+						</Grid.Column>
+					</Grid.Row>
+					<Grid.Row>
+						<Grid.Column>
 
-                </List>
-              </Link>
+							<a href='https://simplereactcounter.netlify.com' target='_blank' rel='noopener noreferrer'>
+								<List animated verticalAlign='middle' align='center' relaxed='very' size='big'>
 
-            </Grid.Column>
-          </Grid.Row>
-          <Grid.Row>
-            <Grid.Column>
+									<List.Item>
+										<Image size='mini' src={Counter} alt='Counter'/>
+										<List.Content>
+											<List.Header style={{color: 'white'}}>Simple React Counter</List.Header>
+										</List.Content>
+									</List.Item>
 
-              <a href='https://simplereactcounter.netlify.com' target='_blank' rel='noopener noreferrer'>
-                <List animated verticalAlign='middle' align='center' relaxed='very' size='big'>
+								</List>
+							</a>
 
-                  <List.Item>
-                    <Image size='mini' src={Counter} alt='Counter'/>
-                    <List.Content>
-                      <List.Header style={{color: 'white'}}>Simple React Counter</List.Header>
-                    </List.Content>
-                  </List.Item>
+						</Grid.Column>
+						<Grid.Column>
 
-                </List>
-              </a>
+							<a href='https://stringthing.netlify.com' target='_blank' rel='noopener noreferrer'>
+								<List animated verticalAlign='middle' align='center' relaxed='very' size='big'>
 
-            </Grid.Column>
-            <Grid.Column>
+									<List.Item>
+										<Image size='mini' src={Bass} alt='Music'/>
+										<List.Content>
+											<List.Header style={{color: 'white'}}>String Thing</List.Header>
+										</List.Content>
+									</List.Item>
 
-              <a href='https://stringthing.netlify.com' target='_blank' rel='noopener noreferrer'>
-                <List animated verticalAlign='middle' align='center' relaxed='very' size='big'>
+								</List>
+							</a>
 
-                  <List.Item>
-                    <Image size='mini' src={Bass} alt='Music'/>
-                    <List.Content>
-                      <List.Header style={{color: 'white'}}>String Thing</List.Header>
-                    </List.Content>
-                  </List.Item>
+						</Grid.Column>
+					</Grid.Row>
+					<Grid.Row>
+						<Grid.Column>
 
-                </List>
-              </a>
+							<a href='https://repl.it/@MasonMan/Ruby-Contact-List' target='_blank' rel='noopener noreferrer'>
+								<List animated verticalAlign='middle' align='center' relaxed='very' size='big'>
 
-            </Grid.Column>
-          </Grid.Row>
-          <Grid.Row>
-            <Grid.Column>
+									<List.Item>
+										<Image size='mini' src={RubyContact} alt='Counter'/>
+										<List.Content>
+											<List.Header style={{color: 'white'}}>Ruby Contact List</List.Header>
+										</List.Content>
+									</List.Item>
 
-              <a href='https://repl.it/@MasonMan/Ruby-Contact-List' target='_blank' rel='noopener noreferrer'>
-                <List animated verticalAlign='middle' align='center' relaxed='very' size='big'>
+								</List>
+							</a>
 
-                  <List.Item>
-                    <Image size='mini' src={RubyContact} alt='Counter'/>
-                    <List.Content>
-                      <List.Header style={{color: 'white'}}>Ruby Contact List</List.Header>
-                    </List.Content>
-                  </List.Item>
+						</Grid.Column>
+						<Grid.Column>
 
-                </List>
-              </a>
+							<a href='https://laravelcontactlist.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
+								<List animated verticalAlign='middle' align='center' relaxed='very' size='big'>
 
-            </Grid.Column>
-            <Grid.Column>
+									<List.Item>
+										<Image size='mini' src={LaravelContact} alt='Music'/>
+										<List.Content>
+											<List.Header style={{color: 'white'}}>Laravel Contact List</List.Header>
+										</List.Content>
+									</List.Item>
 
-              <a href='https://laravelcontactlist.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
-                <List animated verticalAlign='middle' align='center' relaxed='very' size='big'>
+								</List>
+							</a>
 
-                  <List.Item>
-                    <Image size='mini' src={LaravelContact} alt='Music'/>
-                    <List.Content>
-                      <List.Header style={{color: 'white'}}>Laravel Contact List</List.Header>
-                    </List.Content>
-                  </List.Item>
-
-                </List>
-              </a>
-
-            </Grid.Column>
-          </Grid.Row>
-        </Grid>
-      </Segment>
-    </div>
-  </div>
+						</Grid.Column>
+					</Grid.Row>
+				</Grid>
+			</Segment>
+		</div>
+	</div>
 )
 
 export default Projects;
