@@ -1,10 +1,10 @@
 import React from 'react';
-import { Segment } from 'semantic-ui-react';
+import { Header, Segment } from 'semantic-ui-react';
 import PicViewer from './AppEstViewer';
 
 const AppEst = () => (
 	<div>
-		<h2 style={{color: 'white'}}>Application Estimator</h2>
+		<Header as='h1' inverted>Application Estimator</Header>
 		<Segment inverted>
 			<p style={{fontSize: 17}}>
 				The app estimator is a webpage made for DevPoint Studios.

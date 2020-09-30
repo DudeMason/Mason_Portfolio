@@ -1,10 +1,10 @@
 import React from 'react';
-import { Segment } from 'semantic-ui-react';
+import { Header, Segment } from 'semantic-ui-react';
 import PicViewer from './JanitorialViewer';
 
 const Janitorial = () => (
 	<div>
-		<h2 style={{color: 'white'}}>CEO Janitorial</h2>
+		<Header as='h1' inverted>CEO Janitorial</Header>
 		<Segment>
 			<p style={{fontSize: 17}}>
 				I made this website for a friend who has a custodial services company.

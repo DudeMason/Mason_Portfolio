@@ -8,6 +8,10 @@ code {
     background-color: #f1f1f1;
 }
 
+.white {
+    color: white;
+}
+
 .appLight {
     background-image: url('./images/Background.png');
     -webkit-background-size: cover;

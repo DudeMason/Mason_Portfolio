@@ -1,5 +1,5 @@
 import React from 'react';
-import { Segment } from 'semantic-ui-react';
+import { Header, Segment } from 'semantic-ui-react';
 import MasonQR from '../../../images/MasonQR.png';
 import WhateverYouWant from '../../../images/WhateverYouWant.png';
 import EvenLink from '../../../images/EvenLink.png';
@@ -7,7 +7,7 @@ import SiteQR from '../../../images/SiteQR.png';
 
 const QrCode = () => (
 	<div>
-		<h1 style="color: white; ">QR Code Generator</h1>
+		<Header as='h1' inverted>QR Code Generator</Header>
 		<Segment textAlign='center' inverted>
 			<p style={{fontSize: 18}}>This project was inspired by my wife.
 				She's a graphic designer and was looking for QR codes

@@ -1,10 +1,10 @@
 import React from 'react';
-import { Segment } from 'semantic-ui-react';
+import { Header, Segment } from 'semantic-ui-react';
 import PicViewer from './TripViewer';
 
 const Trip = () => (
 	<div>
-		<h1><font color='white'>Trip Tracker</font></h1>
+		<Header as='h1' inverted>Trip Tracker</Header>
 		<Segment inverted align='left' style={{fontSize: 15}}>
 			<p>
 				At school we had something called a hackathon.
