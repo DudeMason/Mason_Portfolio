@@ -9,13 +9,6 @@ import Belaying from '../../../images/Belaying.png';
 import Moab from '../../../images/Moab.png';
 import FamBam from '../../../images/FamBam.png';
 import Fam from '../../../images/Fam.png';
-import SmashBros from '../../../images/SmashBros.png';
-import Overwatch from '../../../images/Overwatch.png';
-import Botw from '../../../images/Botw.png';
-import Fortnite from '../../../images/Fortnite.png';
-import BeatSaber from '../../../images/BeatSaber.png';
-import SeaofThieves from '../../../images/SeaofThieves.png';
-import MineCraft from '../../../images/MineCraft.png';
 import Gallup1 from '../../../images/Gallup1.png';
 import Gallup2 from '../../../images/Gallup2.png';
 import Gallup3 from '../../../images/Gallup3.png';
@@ -235,98 +228,6 @@ const panes = [
 											<Segment compact>
 												<List.Item>
 													<Image fluid src={Wall}/>
-												</List.Item>
-											</Segment>
-
-										</List>
-									</Grid.Column>
-
-								</Grid>
-							</Modal.Content>
-						</Modal>
-
-						<Modal basic closeIcon className='modals'
-									 trigger={<Button size='big' compact inverted basic color='blue'>Video Games</Button>}>
-							<Modal.Header align='center' as='h2'>
-								I'm a gaming enthusiast!
-								<Divider/>
-								<p style={{fontSize: 16}}>Below are some games that I really like!</p>
-							</Modal.Header>
-							<Modal.Content>
-
-								<Grid columns={2} align='center'>
-									<Grid.Column>
-										<List>
-
-											<Segment compact>
-												<List.Item>
-													<Popup content="Breath of the Wild is the greatest game I've ever played"
-																 trigger={<Image fluid src={Botw}/>}
-																 position='left center'
-													/>
-												</List.Item>
-											</Segment>
-
-											<Segment compact>
-												<List.Item>
-													<Popup content="I love this game and how competitive it can get!"
-																 trigger={<Image fluid src={SmashBros}/>}
-																 position='left center'
-													/>
-												</List.Item>
-											</Segment>
-
-											<Segment compact>
-												<List.Item>
-													<Popup
-														content="This game changed the world. I've been playing it since the first week it was launched! It's changed a lot but it's still good."
-														trigger={<Image fluid src={Fortnite}/>}
-														position='left center'
-													/>
-												</List.Item>
-											</Segment>
-
-											<Segment compact>
-												<List.Item>
-													<Popup
-														content="Minecraft is pretty theraputic for me. Just chill, buid, and create with some nice background music."
-														trigger={<Image fluid src={MineCraft}/>}
-														position='left center'
-													/>
-												</List.Item>
-											</Segment>
-
-										</List>
-									</Grid.Column>
-									<Grid.Column>
-										<List>
-
-											<Segment compact>
-												<List.Item>
-													<Popup content="I love how unique this game is and I love the art style"
-																 trigger={<Image fluid src={Overwatch}/>}
-																 position='right center'
-													/>
-												</List.Item>
-											</Segment>
-
-											<Segment compact>
-												<List.Item>
-													<Popup
-														content="Beat Saber is the best! It's a VR Guitar Hero mixed with DDR and light-sabers. Makes you feel like a musical jedi. Great work-out, dancing, and a lot of fun. lol"
-														trigger={<Image fluid src={BeatSaber}/>}
-														position='right center'
-													/>
-												</List.Item>
-											</Segment>
-
-											<Segment compact>
-												<List.Item>
-													<Popup
-														content="This game really puts you into the adventure of being independant pirate on the seas. You get to explore and make ethical desicions with/against real people. You can steal, give, aid, or flee from other pirates! And you literally sail a ship around the seas!"
-														trigger={<Image fluid src={SeaofThieves}/>}
-														position='right center'
-													/>
 												</List.Item>
 											</Segment>
 

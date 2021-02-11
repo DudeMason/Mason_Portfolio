@@ -3,9 +3,8 @@ import { Image, List, Header, Icon, Grid, Reveal, Segment } from 'semantic-ui-re
 import Smiley from '../../../images/Smiley.png';
 import LinkedinIcon from '../../../images/LinkedinIcon.png';
 import GithubIcon from '../../../images/GithubIcon.png';
-import InstaIcon from '../../../images/InstaIcon.png';
 import AdminIcon from '../../../images/AdminIcon.png';
-import GmailIcon from '../../../images/GmailIcon.png';
+import AppleMailIcon from '../../../images/AppleMailIcon.png';
 
 const Contact = () => (
 	<div>
@@ -32,10 +31,10 @@ const Contact = () => (
 				</Header>
 				<List animated verticalAlign='middle' size='big' relaxed='very' divided>
 
-					<List.Item href="mailto:mason.deyre@gmail.com" target='_blank'>
-						<Image size='mini' src={GmailIcon} alt='https://icons8.com/icons/set/gmail'/>
+					<List.Item href="mailto:mason.eyre@icloud.com" target='_blank'>
+						<Image size='mini' src={AppleMailIcon} alt='https://img.icons8.com/dusk/64/000000/apple-mail.png'/>
 						<List.Content>
-							<List.Header style={{color: 'white'}}>mason.deyre@gmail.com</List.Header>
+							<List.Header style={{color: 'white'}}>mason.eyre@icloud.com</List.Header>
 						</List.Content>
 					</List.Item>
 
@@ -63,32 +62,6 @@ const Contact = () => (
 									<Image size='mini' src={LinkedinIcon} alt='https://icons8.com/icons/set/linkedin'/>
 									<List.Content>
 										<List.Header style={{color: 'white'}}>LinkedIn</List.Header>
-									</List.Content>
-								</List.Item>
-
-							</List>
-						</Grid.Column>
-					</Grid.Row>
-					<Grid.Row>
-						<Grid.Column>
-							<List animated verticalAlign='middle' size='big' relaxed='very' align='center'>
-
-								<List.Item href="https://www.facebook.com/mason.deyre" target='_blank'>
-									<Image avatar src="https://img.icons8.com/dusk/64/000000/facebook-new--v2.png"/>
-									<List.Content>
-										<List.Header style={{color: 'white'}}>Facebook</List.Header>
-									</List.Content>
-								</List.Item>
-
-							</List>
-						</Grid.Column>
-						<Grid.Column>
-							<List animated verticalAlign='middle' size='big' relaxed='very' align='center'>
-
-								<List.Item href="https://www.instagram.com/masoneyre/" target='_blank'>
-									<Image size='mini' src={InstaIcon} alt="https://icons8.com/icons/set/instagram-new"/>
-									<List.Content>
-										<List.Header style={{color: 'white'}}>Instagram</List.Header>
 									</List.Content>
 								</List.Item>
 
