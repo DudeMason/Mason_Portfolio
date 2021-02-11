@@ -45,8 +45,8 @@ const AppDark = () => (
 		<p align='center' style={{color: 'white', opacity: .5, paddingTop: 50, paddingBottom: 50}}>
 			© 2020 Website Created by Mason D Eyre
 			<br/>
-			<a href='mailto:mason.deyre@gmail.com' target='_blank' rel="noopener noreferrer">
-				mason.deyre@gmail.com
+			<a href='mailto:mason.eyre@icloud.com' target='_blank' rel="noopener noreferrer">
+				mason.eyre@icloud.com
 			</a>
 			<br/>
 			Icons created by &nbsp;
