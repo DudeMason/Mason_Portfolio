@@ -95,15 +95,15 @@ const panes = [
 					</p>
 					<br/>
 					<p>Laravel (PHP)</p>
-					<Progress percent={75} indicating size='tiny'/>
-					<p>Ruby on Rails</p>
-					<Progress percent={80} indicating size='tiny'/>
-					<p>React.js</p>
 					<Progress percent={85} indicating size='tiny'/>
+					<p>Ruby on Rails</p>
+					<Progress percent={67} indicating size='tiny'/>
+					<p>React.js</p>
+					<Progress percent={75} indicating size='tiny'/>
 					<p>HTML</p>
-					<Progress percent={70} indicating size='tiny'/>
+					<Progress percent={75} indicating size='tiny'/>
 					<p>CSS</p>
-					<Progress percent={57} indicating size='tiny'/>
+					<Progress percent={72} indicating size='tiny'/>
 					<p>Cooking <i style={{fontSize: 7}}>hehe</i></p>
 					<Progress percent={10} indicating size='tiny'/>
 					<p>Spanish</p>
