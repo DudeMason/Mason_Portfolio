@@ -24,14 +24,14 @@ const panes = [
 						<Grid.Column style={{marginLeft: '34px'}}>
 							<Container textAlign='justified'>
 								<p style={{fontSize: 16}}>
-									I had been struggling for quite some time to find a career path
+									I struggled for quite some time to find a career path
 									that fits my particular skills and abilities;
 									a career path that I could find joy and satisfaction in.
 									<p>
 										I finally found that path in coding!
 									</p>
 									I signed up for a coding course and instantly fell in love.
-									It's a no-brainer that this is THE career path for me.
+									It's a no-brainer that this career path fits my natural skill set.
 								</p>
 								<p style={{fontSize: 21}}>
 									In this section of my website
