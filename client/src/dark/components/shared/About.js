@@ -152,7 +152,7 @@ const panes = [
 								</Container>
 							</Modal.Header>
 							<Modal.Content>
-								<Grid columns={2} align='center'>
+								<Grid columns={1} align='center'>
 									<Grid.Column>
 										<List>
 											<Segment compact>
