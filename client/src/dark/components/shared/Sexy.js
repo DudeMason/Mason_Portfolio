@@ -48,7 +48,7 @@ export default class Sexy extends Component {
 				{
 					clicked
 					?
-					<Dimmer.Dimmable as={Image} dimmed={active} onMouseLeave={this.handleHide}>
+					<Dimmer.Dimmable as={Image} dimmed={active} onClick={this.handleHide} onMouseLeave={this.handleHide}>
 						<Image size='medium' src={MasonDPL} rounded={true}/>
 						<Dimmer active={active}>
 							{content}
