@@ -153,14 +153,15 @@ const panes = [
 								</Container>
 							</Modal.Header>
 							<Modal.Content>
-								<Grid columns={1} align='center'>
+								<Grid columns={2} align='center' stackable>
 									<Grid.Column>
 										<Segment compact>
 											<Popup content="This is my family when I was a wee lad."
 														 trigger={<Image fluid src={FamBam}/>}
 														 position='left center'/>
 										</Segment>
-
+									</Grid.Column>
+									<Grid.Column>
 										<Segment compact>
 											<Popup content="This is my family now."
 														 trigger={<Image fluid src={Fam}/>}
@@ -180,11 +181,9 @@ const panes = [
 								<Header as='h3'>I generally climb in the 5.11 range.</Header>
 							</Modal.Header>
 							<Modal.Content>
-								<Grid columns={2} align='center'>
-
+								<Grid columns={2} align='center' stackable>
 									<Grid.Column>
 										<List>
-
 											<Segment compact>
 												<List.Item>
 													<Image fluid src={Moab}/>
@@ -199,12 +198,10 @@ const panes = [
 														position='left center'/>
 												</List.Item>
 											</Segment>
-
 										</List>
 									</Grid.Column>
 									<Grid.Column>
 										<List>
-
 											<Segment compact>
 												<List.Item>
 													<Image fluid src={Belaying}/>
@@ -216,10 +213,8 @@ const panes = [
 													<Image fluid src={Wall}/>
 												</List.Item>
 											</Segment>
-
 										</List>
 									</Grid.Column>
-
 								</Grid>
 							</Modal.Content>
 						</Modal>

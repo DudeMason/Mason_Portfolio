@@ -153,7 +153,7 @@ const panes = [
 								</Container>
 							</Modal.Header>
 							<Modal.Content>
-								<Grid columns={1} align='center'>
+								<Grid columns={2} align='center' stackable>
 									<Grid.Column>
 										<List>
 											<Segment compact>
@@ -163,7 +163,10 @@ const panes = [
 																 position='left center'/>
 												</List.Item>
 											</Segment>
-
+										</List>
+									</Grid.Column>
+									<Grid.Column>
+										<List>
 											<Segment compact>
 												<List.Item>
 													<Popup content="This is my family now."
@@ -187,10 +190,8 @@ const panes = [
 							</Modal.Header>
 							<Modal.Content>
 								<Grid columns={2} align='center' stackable>
-
 									<Grid.Column>
 										<List>
-
 											<Segment compact>
 												<List.Item>
 													<Image fluid src={Moab}/>
@@ -205,12 +206,10 @@ const panes = [
 														position='left center'/>
 												</List.Item>
 											</Segment>
-
 										</List>
 									</Grid.Column>
 									<Grid.Column>
 										<List>
-
 											<Segment compact>
 												<List.Item>
 													<Image fluid src={Belaying}/>
@@ -222,10 +221,8 @@ const panes = [
 													<Image fluid src={Wall}/>
 												</List.Item>
 											</Segment>
-
 										</List>
 									</Grid.Column>
-
 								</Grid>
 							</Modal.Content>
 						</Modal>
