@@ -186,7 +186,7 @@ const panes = [
 								<Header as='h3' inverted>I generally climb in the 5.11 range.</Header>
 							</Modal.Header>
 							<Modal.Content>
-								<Grid columns={2} align='center'>
+								<Grid columns={2} align='center' stackable>
 
 									<Grid.Column>
 										<List>
