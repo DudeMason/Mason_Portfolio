@@ -31,8 +31,9 @@ const panes = [
 										<p>
 											I finally found that path in coding!
 										</p>
-										I signed up for a coding course and instantly fell in love.
-										It's a no-brainer that this career path fits my natural skill set.
+										I took a dev course and instantly fell in love.
+										<br/>
+										It was a no-brainer that this career fits my natural skill set.
 									</p>
 									<p style={{fontSize: 21}}>
 										In this section of my website
