@@ -153,10 +153,8 @@ const panes = [
 							</Modal.Header>
 							<Modal.Content>
 								<Grid columns={2} align='center'>
-
 									<Grid.Column>
 										<List>
-
 											<Segment compact>
 												<List.Item>
 													<Popup content="This is my family when I was a wee lad."
@@ -165,11 +163,6 @@ const panes = [
 												</List.Item>
 											</Segment>
 
-										</List>
-									</Grid.Column>
-									<Grid.Column>
-										<List>
-
 											<Segment compact>
 												<List.Item>
 													<Popup content="This is my family now."
@@ -177,10 +170,8 @@ const panes = [
 																 position='left center'/>
 												</List.Item>
 											</Segment>
-
 										</List>
 									</Grid.Column>
-
 								</Grid>
 							</Modal.Content>
 						</Modal>
