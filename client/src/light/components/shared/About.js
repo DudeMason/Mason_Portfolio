@@ -4,14 +4,18 @@ import React from 'react';
 import Masooon from '../../../images/Masooon.png';
 import DevPoint from '../../../images/Beaker.png';
 import Worst from '../../../images/Worst.png';
+import BackLook from '../../../images/BackLook.png'
 import Belaying from '../../../images/Belaying.png';
 import Moab from '../../../images/Moab.png';
 import FamBam from '../../../images/FamBam.png';
 import Fam from '../../../images/Fam.png';
+import Focused from '../../../images/Focused.png';
 import Gallup1 from '../../../images/Gallup1.png';
 import Gallup2 from '../../../images/Gallup2.png';
 import Gallup3 from '../../../images/Gallup3.png';
-import Wall from '../../../images/Wall.png';
+import GothicGirlsClimb from '../../../images/GothicGirlsClimb.png';
+import Searching from '../../../images/Searching.png';
+import Victory from '../../../images/Victory.png';
 
 const panes = [
 	{
@@ -200,6 +204,7 @@ const panes = [
 											</Segment>
 										</List>
 									</Grid.Column>
+
 									<Grid.Column>
 										<List>
 											<Segment compact>
@@ -210,7 +215,39 @@ const panes = [
 
 											<Segment compact>
 												<List.Item>
-													<Image fluid src={Wall}/>
+													<Image fluid src={BackLook}/>
+												</List.Item>
+											</Segment>
+										</List>
+									</Grid.Column>
+
+									<Grid.Column>
+										<List>
+											<Segment compact>
+												<List.Item>
+													<Image fluid src={Searching}/>
+												</List.Item>
+											</Segment>
+
+											<Segment compact>
+												<List.Item>
+													<Image fluid src={Focused}/>
+												</List.Item>
+											</Segment>
+										</List>
+									</Grid.Column>
+
+									<Grid.Column>
+										<List>
+											<Segment compact>
+												<List.Item>
+													<Image fluid src={GothicGirlsClimb}/>
+												</List.Item>
+											</Segment>
+
+											<Segment compact>
+												<List.Item>
+													<Image fluid src={Victory}/>
 												</List.Item>
 											</Segment>
 										</List>
