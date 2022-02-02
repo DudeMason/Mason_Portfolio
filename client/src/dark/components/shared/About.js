@@ -204,10 +204,7 @@ const panes = [
 
 											<Segment compact>
 												<List.Item>
-													<Popup
-														content="This was the hardest climb I've ever done. It's only a 10c (which I still don't believe) It's ALL feet and basically no hands. The only support there is are little dimples and pimples on a seemingly smooth wall. My feet were slipping left and right. BUT, I finished it! Maybe it IS a 10c but mentally it was a 12c for me! And yes, that is me on the wall :)"
-														trigger={<Image fluid src={Worst}/>}
-														position='left center'/>
+													<Image fluid src={Victory}/>
 												</List.Item>
 											</Segment>
 										</List>
@@ -255,7 +252,10 @@ const panes = [
 
 											<Segment compact>
 												<List.Item>
-													<Image fluid src={Victory}/>
+													<Popup
+														content="This was the hardest climb I've ever done. It's only a 10c (which I still don't believe) It's ALL feet and basically no hands. The only support there is are little dimples and pimples on a seemingly smooth wall. My feet were slipping left and right. BUT, I finished it! Maybe it IS a 10c but mentally it was a 12c for me! And yes, that is me on the wall :)"
+														trigger={<Image fluid src={Worst}/>}
+														position='left center'/>
 												</List.Item>
 											</Segment>
 										</List>
