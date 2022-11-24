@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1542557e-3e06-473b-b19d-14a491856f54" name="Changes" comment="Move files">
+    <list default="true" id="1542557e-3e06-473b-b19d-14a491856f54" name="Changes" comment="a">
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +17,11 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="react-offshoot" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -78,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669246680330</updated>
       <workItem from="1669246681450" duration="2424000" />
-      <workItem from="1669249292902" duration="720000" />
+      <workItem from="1669249292902" duration="2263000" />
     </task>
     <task id="LOCAL-00001" summary="Add htaccess file">
       <created>1669247531855</created>
@@ -108,7 +117,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669249645829</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update json">
+      <created>1669250151780</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669250151780</updated>
+    </task>
+    <task id="LOCAL-00006" summary="a">
+      <created>1669250594503</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669250594503</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +153,8 @@
     <MESSAGE value="update htaccess" />
     <MESSAGE value="Make just react site" />
     <MESSAGE value="Move files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Move files" />
+    <MESSAGE value="Update json" />
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
   </component>
 </project>
