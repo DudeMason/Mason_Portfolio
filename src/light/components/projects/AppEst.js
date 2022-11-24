@@ -17,7 +17,7 @@ const AppEst = () => (
 				<br/>
 				Check out the website here
 			</p>
-			<a href='https://appestimation.herokuapp.com/' target='_blank' rel="noopener noreferrer" style={{fontSize: 18}}>
+			<a href='src/light/components/projects/AppEst' target='_blank' rel="noopener noreferrer" style={{fontSize: 18}}>
 				-App Estimator-
 			</a>
 			<p style={{fontSize: 12}}>

@@ -5,7 +5,7 @@ import PicViewer from './TripViewer';
 const Trip = () => (
 	<div>
 		<Header as='h1' inverted>Trip Tracker</Header>
-		<Segment inverted align='left' style={{fontSize: 15}}>
+		<Segment align='left' style={{fontSize: 15}}>
 			<p>
 				At school we had something called a hackathon.
 				In a hackathon we form groups of three and attempt
@@ -21,12 +21,11 @@ const Trip = () => (
 			<p style={{fontSize: 18}} align='center'>
 				The project has been launched on its own website.
 				<br/>
-				<a href='https://triptrackplan.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
+				<a href='src/light/components/projects/Trip' target='_blank' rel='noopener noreferrer'>
 					<b>-Check it out here-</b>
 				</a>
 			</p>
-			<div align='center'>
-				Here are some photos.
+			<div className='tripDiv' align='center'>
 				<PicViewer/>
 			</div>
 			<a href="https://github.com/DudeMason/Trip_Tracker" target='_blank' rel="noopener noreferrer">

@@ -41,7 +41,7 @@ const AppDark = () => (
 			</a>
 			<br/>
 			Icons created by &nbsp;
-			<a href='https://icons8.com/' target='_blank' rel="noopener noreferrer">
+			<a href='src/dark/AppDark' target='_blank' rel="noopener noreferrer">
 				Icons8
 			</a>
 		</p>
