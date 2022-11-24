@@ -4,7 +4,6 @@ import AppDark from './dark/AppDark';
 import './Index.css'
 
 const App = ({darkMode}) => (
-
 	<>
 		{
 			darkMode
