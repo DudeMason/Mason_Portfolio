@@ -21,7 +21,7 @@ const Trip = () => (
 			<p style={{fontSize: 18}} align='center'>
 				The project has been launched on its own website.
 				<br/>
-				<a href='src/light/components/projects/Trip' target='_blank' rel='noopener noreferrer'>
+				<a href='https://triptrackplan.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
 					<b>-Check it out here-</b>
 				</a>
 			</p>

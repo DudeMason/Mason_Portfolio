@@ -7,7 +7,6 @@ import AdminIcon from '../../../images/AdminIcon.png';
 import AppleMailIcon from '../../../images/AppleMailIcon.png';
 
 const Contact = () => (
-
 	<div>
 		<div align='center'>
 			<Segment compact vertical>

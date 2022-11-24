@@ -40,7 +40,7 @@ const AppLight = () => (
 			</a>
 			<br/>
 			Icons created by &nbsp;
-			<a href='src/light/AppLight' target='_blank' rel="noopener noreferrer" style={{color: 'orange'}}>
+			<a href='https://icons8.com/' target='_blank' rel="noopener noreferrer" style={{color: 'orange'}}>
 				Icons8
 			</a>
 		</p>

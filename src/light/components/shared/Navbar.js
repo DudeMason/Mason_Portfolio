@@ -1,6 +1,7 @@
 import React from 'react';
 import { Menu, Icon, Dropdown, Grid } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
+import { DarkModeConsumer } from '../../../providers/DarkModeProvider';
 
 const Navbar = ({toggleMode}) => (
 	<>
@@ -66,4 +67,15 @@ const Navbar = ({toggleMode}) => (
 	</>
 )
 
-export default Navbar;
+const ConnectedNavbar = () => {
+	return (
+		<DarkModeConsumer>
+			{
+				value => (
+					<Navbar toggleMode={value.toggleMode}/>
+				)
+			}
+		</DarkModeConsumer>
+	)
+}
+export default ConnectedNavbar;

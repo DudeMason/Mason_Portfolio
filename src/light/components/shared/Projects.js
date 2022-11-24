@@ -207,7 +207,7 @@ const Projects = () => (
 						</Grid.Column>
 						<Grid.Column>
 
-							<a href='src/light/components/shared/Projects' target='_blank' rel='noopener noreferrer'>
+							<a href='https://laravelcontactlist.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
 								<List selection verticalAlign='middle' align='center' relaxed='very' size='big'>
 
 									<List.Item>
