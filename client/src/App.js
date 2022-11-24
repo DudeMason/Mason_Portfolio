@@ -1,7 +1,6 @@
 import React from 'react';
 import AppLight from './light/AppLight';
 import AppDark from './dark/AppDark';
-import { BlogConsumer } from './providers/BlogProvider';
 import './Index.css'
 
 const App = ({darkMode}) => (
@@ -17,16 +16,4 @@ const App = ({darkMode}) => (
 	</>
 )
 
-const ConnectedApp = () => {
-	return (
-		<BlogConsumer>
-			{
-				value => (
-					<App darkMode={value.darkMode}/>
-				)
-			}
-		</BlogConsumer>
-	)
-}
-
-export default ConnectedApp;
+export default App;

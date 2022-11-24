@@ -6,7 +6,6 @@ import About from './components/shared/About';
 import Home from './components/shared/Home';
 import NoMatch from './components/shared/NoMatch';
 import Projects from './components/shared/Projects';
-import Blog from './components/blog/Blog';
 import Contact from './components/shared/Contact';
 import QrCode from './components/projects/QrCode';
 import Store from './components/projects/Store';
@@ -23,7 +22,6 @@ const AppLight = () => (
 				<Route exact path='/' component={Home}/>
 				<Route exact path='/about' component={About}/>
 				<Route exact path='/projects' component={Projects}/>
-				<Route exact path='/blog' component={Blog}/>
 				<Route exact path='/contact' component={Contact}/>
 				<Route exact path='/qrcode' component={QrCode}/>
 				<Route exact path='/store' component={Store}/>

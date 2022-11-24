@@ -98,12 +98,6 @@ code {
     }
 }
 
-.navItem:hover .blogIcon {
-    animation: tilt .3s;
-    transform: rotate(45deg);
-    animation-fill-mode: forwards;
-}
-
 @keyframes tilt {
     from {
         transform: rotate(0deg)

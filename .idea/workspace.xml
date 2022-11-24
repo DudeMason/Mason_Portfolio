@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1542557e-3e06-473b-b19d-14a491856f54" name="Changes" comment="update htaccess">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/auth/FetchUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/auth/Login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/auth/ProtectedRoute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/auth/Register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/dark/AppDark.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/dark/AppDark.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/dark/components/blog/Blog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/dark/components/blog/BlogForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/dark/components/blog/BlogItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/dark/components/shared/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/dark/components/shared/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/light/AppLight.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/light/AppLight.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/light/components/blog/Blog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/light/components/blog/BlogItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/light/components/shared/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/light/components/shared/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/providers/AuthProvider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/providers/BlogProvider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Hy9uhhHj2E1zy1filupFYhHhPy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.laravel-idea.search-composer-json": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs.jest.jest_package": "",
+    "nodejs_package_manager_path": "yarn"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="renders learn react link" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="" />
+      <working-dir value="$PROJECT_DIR$/client" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/client/src/App.test.js" />
+      <test-names>
+        <test-name value="renders learn react link" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.renders learn react link" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1542557e-3e06-473b-b19d-14a491856f54" name="Changes" comment="" />
+      <created>1669246680330</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669246680330</updated>
+      <workItem from="1669246681450" duration="2424000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add htaccess file">
+      <created>1669247531855</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669247531855</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update htaccess">
+      <created>1669247976493</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669247976493</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add htaccess file" />
+    <MESSAGE value="update htaccess" />
+    <option name="LAST_COMMIT_MESSAGE" value="update htaccess" />
+  </component>
+</project>

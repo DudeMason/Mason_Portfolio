@@ -1,7 +1,6 @@
 import React from 'react';
 import { Menu, Icon, Dropdown, Grid } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
-import { BlogConsumer } from '../../../providers/BlogProvider';
 
 const Navbar = ({toggleMode, colorChange, color}) => (
 	<>
@@ -54,15 +53,6 @@ const Navbar = ({toggleMode, colorChange, color}) => (
 						</Grid.Column>
 
 						<Grid.Column>
-							<Link to='/blog'>
-								<Menu.Item className='navItem'>
-									<Icon className='blogIcon' name='sticky note outline' color='orange'/>
-									Blog
-								</Menu.Item>
-							</Link>
-						</Grid.Column>
-
-						<Grid.Column>
 							<Dropdown icon='bars' item placeholder='‏‏‎ ' className='drop'>
 								<Dropdown.Menu>
 									<Dropdown.Item icon='lightbulb outline' text='Light Mode' onClick={toggleMode}/>
@@ -94,20 +84,4 @@ const Navbar = ({toggleMode, colorChange, color}) => (
 	</>
 )
 
-const ConnectedNavbar = () => {
-	return (
-		<BlogConsumer>
-			{
-				value => (
-					<Navbar
-						color={value.color}
-						colorChange={value.colorChange}
-						toggleMode={value.toggleMode}
-					/>
-				)
-			}
-		</BlogConsumer>
-	)
-}
-
-export default ConnectedNavbar;
+export default Navbar;
