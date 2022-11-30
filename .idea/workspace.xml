@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1542557e-3e06-473b-b19d-14a491856f54" name="Changes" comment="Update">
-      <change beforePath="$PROJECT_DIR$/src/dark/AppDark.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dark/AppDark.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dark/components/projects/AppEst.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dark/components/projects/AppEst.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dark/components/projects/Janitorial.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dark/components/projects/Janitorial.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dark/components/projects/Trip.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dark/components/projects/Trip.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dark/components/shared/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dark/components/shared/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dark/components/shared/NoMatch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dark/components/shared/NoMatch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dark/components/shared/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dark/components/shared/Projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/light/components/projects/AppEst.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/light/components/projects/AppEst.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/light/components/projects/Janitorial.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/light/components/projects/Janitorial.js" afterDir="false" />
+    <list default="true" id="1542557e-3e06-473b-b19d-14a491856f54" name="Changes" comment="Update urls and dark mode">
+      <change afterPath="$PROJECT_DIR$/public/_redirects" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +43,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -94,7 +90,8 @@
       <option name="presentableId" value="Default" />
       <updated>1669246680330</updated>
       <workItem from="1669246681450" duration="2424000" />
-      <workItem from="1669249292902" duration="3751000" />
+      <workItem from="1669249292902" duration="6742000" />
+      <workItem from="1669832992545" duration="583000" />
     </task>
     <task id="LOCAL-00001" summary="Add htaccess file">
       <created>1669247531855</created>
@@ -152,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669252573744</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update urls and dark mode">
+      <created>1669253751151</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669253751151</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +182,7 @@
     <MESSAGE value="a" />
     <MESSAGE value="Get fit for deploy" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Update urls and dark mode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update urls and dark mode" />
   </component>
 </project>
