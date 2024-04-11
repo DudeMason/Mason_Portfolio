@@ -154,10 +154,8 @@ const Projects = () => (
 					</Grid.Row>
 					<Grid.Row>
 						<Grid.Column>
-
-							<a href='https://simplereactcounter.netlify.com' target='_blank' rel='noopener noreferrer'>
+							<a href='https://simplereactcounter.netlify.app' target='_blank' rel='noopener noreferrer'>
 								<List animated verticalAlign='middle' align='center' relaxed='very' size='big'>
-
 									<List.Item>
 										<Image size='mini' src={Counter} alt='Counter'/>
 										<List.Content>
@@ -171,7 +169,7 @@ const Projects = () => (
 						</Grid.Column>
 						<Grid.Column>
 
-							<a href='https://stringthing.netlify.com' target='_blank' rel='noopener noreferrer'>
+							<a href='https://stringthing.netlify.app' target='_blank' rel='noopener noreferrer'>
 								<List animated verticalAlign='middle' align='center' relaxed='very' size='big'>
 
 									<List.Item>
