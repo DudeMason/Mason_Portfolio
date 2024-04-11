@@ -15,15 +15,12 @@ const AppEst = () => (
 				This app was made by me and three other students.
 				<br/>
 				<br/>
-				Check out the website here
 			</p>
-			<a href='https://appestimation.herokuapp.com/' target='_blank' rel="noopener noreferrer" style={{fontSize: 18}}>
-				-App Estimator-
-			</a>
 			<p style={{fontSize: 12}}>
-				We're pretty proud of this!
+				We were pretty proud of this!
 			</p>
 			<div className='tripDiv' align='center'>
+				Here are some photos.
 				<PicViewer/>
 			</div>
 			<a href="https://github.com/3mpirical/Final_Project" target='_blank' rel="noopener noreferrer">
