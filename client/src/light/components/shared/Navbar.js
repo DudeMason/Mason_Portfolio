@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import { BlogConsumer } from '../../../providers/BlogProvider';
 
 const Navbar = ({toggleMode}) => (
-
 	<>
 		<Menu size='mini' borderless icon='labeled' className='semanticMeh'>
 			<Grid stackable celled='internally'>

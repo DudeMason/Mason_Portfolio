@@ -28,7 +28,7 @@ const Blog = ({value: {order, entries, toggleOrder}}) => (
 						Oldest First
 					</Button>
 				</p>
-				{entries.sort((a, c) => a.id - c.id).slice(0).reverse().map(b => <BlogItem key={b.id} {...b}/>)}
+				{entries.sort((a, c) => a.id - c.id).slice(0).reverse().map((b) => <BlogItem key={b.id} {...b}/>)}
 				<p style={{color: 'white', fontSize: 11}}>{entries.length} Entries</p>
 			</>
 		}

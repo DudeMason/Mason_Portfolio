@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 
 export const BlogContext = React.createContext(undefined, undefined);
 export const BlogConsumer = BlogContext.Consumer;
@@ -8,71 +7,51 @@ export default class BlogProvider extends Component {
 	state = {entries: [], color: 'black', darkMode: true, order: false}
 
 	componentDidMount() {
-		axios.get('/api/blogs')
-		.then(res => {
-			this.setState({entries: res.data})
-		})
-		.catch(err => {
-			console.log(err)
-		})
-	}
-
-	addEntry = (entry) => {
-		axios.post('/api/blogs', entry)
-		.then(res => {
-			const {entries} = this.state
-			this.setState({entries: [...entries, res.data]})
-		})
-		.catch(err => {
-			console.log(err)
-		})
-	}
-
-	removeEntry = (id) => {
-		axios.delete(`/api/blogs/${id}`)
-		.then(() => {
-			const {entries} = this.state
-			this.setState({entries: entries.filter(b => b.id !== id)})
-		})
-		.catch(err => {
-			console.log(err)
-		})
-	}
-
-	updateEntry = (id, entry) => {
-		axios.put(`/api/blogs/${id}`, entry)
-		.then(res => {
-			const entries = this.state.entries.map(b => {
-				if (b.id === id) {
-					return res.data
+		this.setState({
+			entries: [
+				{
+					id: 3,
+					title: 'Merger',
+					body: 'Pinnacle Quality Insight got acquired by Home Care Pulse. I now work as the Retain™ team lead for the company. I\'m no longer a junior engineer, but have since been promoted to a mid-level engineer!',
+					date: 'October 05, 2023',
+					like: 15,
+					dislike: 0,
+				},
+				{
+					id: 2,
+					title: 'Backend Removal',
+					body: 'Backend services were removed (increased prices), so these are now hard-coded. Hehe',
+					date: 'March 25, 2020',
+					like: 11,
+					dislike: 4,
+				},
+				{
+					id: 1,
+					title: 'Graduated',
+					body: 'I graduated from DevPoint Labs this month and I already landed my first job as a Junior Software Engineer at Pinnacle Quality Insight! I\'m stoked for my journey and progress :)',
+					date: 'February 25, 2020',
+					like: 28,
+					dislike: 1,
 				}
-				return b
-			})
-			this.setState({entries})
+			]
 		})
-		.catch(err => {
-			console.log(err)
-		})
-	}
-
-	toggleMode = () => {
-		this.setState({darkMode: !this.state.darkMode})
 	}
 
 	toggleOrder = () => {
 		this.setState({order: !this.state.order})
 	}
 
+	// These next two should be moved to a separate provider.
+	toggleMode = () => {
+		this.setState({darkMode: !this.state.darkMode})
+	}
+
 	colorChange = (e, {name}) => this.setState({color: name})
 
 	render() {
-
 		return (
 			<BlogContext.Provider value={{
 				...this.state,
-				addEntry: this.addEntry,
-				updateEntry: this.updateEntry,
-				removeEntry: this.removeEntry,
 				colorChange: this.colorChange,
 				toggleMode: this.toggleMode,
 				toggleOrder: this.toggleOrder
