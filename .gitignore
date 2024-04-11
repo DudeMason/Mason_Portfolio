@@ -22,3 +22,6 @@
 /config/master.key
 
 .idea
+
+# Local Netlify folder
+.netlify
