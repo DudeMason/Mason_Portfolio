@@ -3,7 +3,7 @@ import { Menu, Icon, Dropdown, Grid } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import { BlogConsumer } from '../../../providers/BlogProvider';
 
-const Navbar = ({toggleMode}) => (
+const Navbar = ({setMode}) => (
 	<>
 		<Menu size='mini' borderless icon='labeled' className='semanticMeh'>
 			<Grid stackable celled='internally'>
@@ -65,7 +65,7 @@ const Navbar = ({toggleMode}) => (
 						<Grid.Column>
 							<Dropdown icon='bars' item placeholder='‏‏‎ ' className='drop'>
 								<Dropdown.Menu>
-									<Dropdown.Item icon='lightbulb' text='Dark Mode' onClick={toggleMode}/>
+									<Dropdown.Item icon='lightbulb' text='Dark Mode' onClick={() => setMode('black')}/>
 								</Dropdown.Menu>
 							</Dropdown>
 						</Grid.Column>
@@ -81,7 +81,7 @@ const ConnectedNavbar = () => {
 		<BlogConsumer>
 			{
 				value => (
-					<Navbar toggleMode={value.toggleMode}/>
+					<Navbar setMode={value.setMode}/>
 				)
 			}
 		</BlogConsumer>

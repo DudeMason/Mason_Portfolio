@@ -4,14 +4,14 @@ import AppDark from './dark/AppDark';
 import { BlogConsumer } from './providers/BlogProvider';
 import './Index.css'
 
-const App = ({darkMode}) => (
+const App = ({mode}) => (
 	<>
 		{
-			darkMode
+			mode === 'white'
 			?
-			<AppDark/>
-			:
 			<AppLight/>
+			:
+			<AppDark/>
 		}
 	</>
 )
@@ -21,7 +21,7 @@ const ConnectedApp = () => {
 		<BlogConsumer>
 			{
 				value => (
-					<App darkMode={value.darkMode}/>
+					<App mode={value.mode}/>
 				)
 			}
 		</BlogConsumer>

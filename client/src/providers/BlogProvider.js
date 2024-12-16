@@ -4,8 +4,8 @@ export const BlogContext = React.createContext(undefined, undefined);
 export const BlogConsumer = BlogContext.Consumer;
 
 export default class BlogProvider extends Component {
-	mode = document.cookie === '' || document.cookie === 'true'
-	state = {entries: [], color: 'black', darkMode: this.mode, order: false}
+	cookieMode = document.cookie === '' ? 'black' : document.cookie
+	state = {entries: [], mode: this.cookieMode, order: false}
 
 	componentDidMount() {
 		this.setState({
@@ -42,20 +42,17 @@ export default class BlogProvider extends Component {
 		this.setState({order: !this.state.order})
 	}
 
-	// These next two should be moved to a separate provider.
-	toggleMode = () => {
-			document.cookie = !this.state.darkMode
-			this.setState({darkMode: !this.state.darkMode})
+	// This should be moved to a separate provider.
+	setMode = (mode) => {
+		document.cookie = mode
+		this.setState({mode: mode})
 	}
-
-	colorChange = (e, {name}) => this.setState({color: name})
 
 	render() {
 		return (
 			<BlogContext.Provider value={{
 				...this.state,
-				colorChange: this.colorChange,
-				toggleMode: this.toggleMode,
+				setMode: this.setMode,
 				toggleOrder: this.toggleOrder
 			}}>
 				{this.props.children}
