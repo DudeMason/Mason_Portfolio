@@ -201,22 +201,6 @@ const Projects = () => (
 							</a>
 
 						</Grid.Column>
-						<Grid.Column>
-
-							<a href='https://laravelcontactlist.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
-								<List animated verticalAlign='middle' align='center' relaxed='very' size='big'>
-
-									<List.Item>
-										<Image size='mini' src={LaravelContact} alt='Music'/>
-										<List.Content>
-											<List.Header style={{color: 'white'}}>Laravel Contact List</List.Header>
-										</List.Content>
-									</List.Item>
-
-								</List>
-							</a>
-
-						</Grid.Column>
 					</Grid.Row>
 				</Grid>
 			</Segment>

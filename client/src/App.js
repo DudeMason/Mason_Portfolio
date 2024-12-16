@@ -5,7 +5,6 @@ import { BlogConsumer } from './providers/BlogProvider';
 import './Index.css'
 
 const App = ({darkMode}) => (
-
 	<>
 		{
 			darkMode
