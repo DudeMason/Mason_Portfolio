@@ -4,7 +4,8 @@ export const BlogContext = React.createContext(undefined, undefined);
 export const BlogConsumer = BlogContext.Consumer;
 
 export default class BlogProvider extends Component {
-	state = {entries: [], color: 'black', darkMode: true, order: false}
+	mode = document.cookie === '' || document.cookie === 'true'
+	state = {entries: [], color: 'black', darkMode: this.mode, order: false}
 
 	componentDidMount() {
 		this.setState({
@@ -43,7 +44,8 @@ export default class BlogProvider extends Component {
 
 	// These next two should be moved to a separate provider.
 	toggleMode = () => {
-		this.setState({darkMode: !this.state.darkMode})
+			document.cookie = !this.state.darkMode
+			this.setState({darkMode: !this.state.darkMode})
 	}
 
 	colorChange = (e, {name}) => this.setState({color: name})
