@@ -20,7 +20,7 @@ const Navbar = ({setMode, mode}) => (
 						<Grid.Column>
 							<Link to='/'>
 								<Menu.Item className='navItem'>
-									<Icon className='homeIcon' name='medium m' color='blue' alt='Home'/>
+									<Icon className='homeIcon' name='medium m' color={mode === 'blue' ? 'pink' : 'blue'} alt='Home'/>
 									Home
 								</Menu.Item>
 							</Link>
@@ -38,7 +38,7 @@ const Navbar = ({setMode, mode}) => (
 						<Grid.Column>
 							<Link to='/about'>
 								<Menu.Item className='navItem'>
-									<Icon className='aboutIcon' name='user outline' color='green'/>
+									<Icon className='aboutIcon' name='user outline' color={mode === 'green' ? 'pink' : 'green'}/>
 									About Me
 								</Menu.Item>
 							</Link>
@@ -47,7 +47,7 @@ const Navbar = ({setMode, mode}) => (
 						<Grid.Column>
 							<Link to='/contact'>
 								<Menu.Item className='navItem'>
-									<Icon className='contactIcon' name='at' color='violet'/>
+									<Icon className='contactIcon' name='at' color={mode === 'violet' ? 'black' : 'violet'}/>
 									Contact
 								</Menu.Item>
 							</Link>
@@ -56,7 +56,7 @@ const Navbar = ({setMode, mode}) => (
 						<Grid.Column>
 							<Link to='/blog'>
 								<Menu.Item className='navItem'>
-									<Icon className='blogIcon' name='sticky note outline' color='orange'/>
+									<Icon className='blogIcon' name='sticky note outline' color={mode === 'orange' ? 'grey' : 'orange'}/>
 									Blog
 								</Menu.Item>
 							</Link>
@@ -69,7 +69,7 @@ const Navbar = ({setMode, mode}) => (
 									<Dropdown item
 														text='🎨 ‏‏‎ Colors'>
 										<Dropdown.Menu>
-											<Dropdown.Item text='Black' name='black' onClick={() => setMode('true')}/>
+											<Dropdown.Item text='Black' name='black' onClick={() => setMode('black')}/>
 											<Dropdown.Item text='Grey' name='grey' onClick={() => setMode('grey')}/>
 											<Dropdown.Item text='Brown' name='brown' onClick={() => setMode('brown')}/>
 											<Dropdown.Item text='Pink' name='pink' onClick={() => setMode('pink')}/>
