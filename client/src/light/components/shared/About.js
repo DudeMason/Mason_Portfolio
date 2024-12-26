@@ -3,6 +3,8 @@ import { Header, Tab, Button, Progress, Divider, Image, Grid,
 import React from 'react';
 import Masooon from '../../../images/Masooon.png';
 import DevPoint from '../../../images/Beaker.png';
+import MasonGrad from '../../../images/MasonGrad.png';
+import MasonProject from '../../../images/MasonProject.png';
 import Worst from '../../../images/Worst.png';
 import BackLook from '../../../images/BackLook.png'
 import Belaying from '../../../images/Belaying.png';
@@ -29,7 +31,7 @@ const panes = [
 							<Grid.Column style={{marginLeft: '34px'}}>
 								<Container textAlign='justified'>
 									<p style={{fontSize: 16}}>
-										I struggled for quite some time to find a career path
+										I searched for quite some time to find a career path
 										that fits my particular skills and abilities;
 										a career path that I could find joy and satisfaction in.
 										<p>
@@ -37,7 +39,7 @@ const panes = [
 										</p>
 										I took a dev course and instantly fell in love.
 										<br/>
-										It was a no-brainer that this career fits my natural skill set.
+										It was a no-brainer that this career fits my natural skills and talents.
 									</p>
 									<p style={{fontSize: 21}}>
 										In this section of my website
@@ -87,15 +89,16 @@ const panes = [
 				<Header as='h1' align='center'>My Skills</Header>
 				<Container>
 					<p style={{fontSize: 18, textAlign: 'center'}}>
-						Although this website somewhat shows what I can do,
-						<br/>this section further illustrates with some pretty bars!
+						Although this website somewhat shows a little of what I can do,
+						<br/>
+						this section further illustrates it with some pretty bars!
 					</p>
 					<p style={{fontSize: 16, textAlign: 'center'}}>
 						These bars relate to eachother as they relate to me.
 						<br/>
-						They do not represent my skills compared to the industry.
+						They don't necessarily represent my skills compared to the industry.
 						<br/>
-						I still consider myself quite the newb!
+						I still consider myself as having tons to learn!
 					</p>
 					<br/>
 					<p>Laravel (PHP)</p>
@@ -108,7 +111,9 @@ const panes = [
 					<Progress percent={80} indicating size='tiny'/>
 					<p>CSS</p>
 					<Progress percent={72} indicating size='tiny'/>
-					<p>Cooking <i style={{fontSize: 7}}>hehe</i></p>
+					<p>SQL</p>
+					<Progress percent={82} indicating size='tiny'/>
+					<p>Training Llamas</p>
 					<Progress percent={10} indicating size='tiny'/>
 					<p>Spanish</p>
 					<Progress percent={95} indicating size='tiny'/>
@@ -125,12 +130,19 @@ const panes = [
 					<p style={{fontSize: 17}}>
 						DevPoint Labs is a <u>web development</u> school that operates through the University of Utah.
 					</p>
-					<Divider/>
 					<Image rounded width='100' src={DevPoint}/>
 					<Divider/>
+					<Grid columns={2} stackable>
+						<Grid.Column>
+							<Image rounded width='250' src={MasonGrad}/>
+						</Grid.Column>
+						<Grid.Column style={{alignContent: 'center'}}>
+							<Image rounded width='500' src={MasonProject}/>
+						</Grid.Column>
+					</Grid>
+					<Divider/>
 					<Container textAlign='center'>
-						<p style={{fontSize: 17}}>The languages I've been working with recently are Ruby, JavaScript, HTML, and
-							CSS.</p>
+						<p style={{fontSize: 17}}>The languages I studied there are Ruby, JavaScript, HTML, CSS, and PostgreSQL.</p>
 					</Container>
 				</div>
 			</Tab.Pane>
