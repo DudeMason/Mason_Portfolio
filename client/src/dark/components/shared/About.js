@@ -10,7 +10,9 @@ import BackLook from '../../../images/BackLook.png'
 import Belaying from '../../../images/Belaying.png';
 import Moab from '../../../images/Moab.png';
 import FamBam from '../../../images/FamBam.png';
+import FamilyThank from '../../../images/FamilyThank.png';
 import Fam from '../../../images/Fam.png';
+import FamilyTemple from '../../../images/FamilyTemple.png';
 import Focused from '../../../images/Focused.png';
 import Gallup1 from '../../../images/Gallup1.png';
 import Gallup2 from '../../../images/Gallup2.png';
@@ -172,8 +174,15 @@ const panes = [
 										<List>
 											<Segment compact>
 												<List.Item>
-													<Popup content="This is my family when I was a wee lad."
+													<Popup content='This is my family when I was a wee lad.'
 																 trigger={<Image fluid src={FamBam}/>}
+																 position='left center'/>
+												</List.Item>
+											</Segment>
+											<Segment compact>
+												<List.Item>
+													<Popup content='This is my own family unit (with more to come!)'
+																 trigger={<Image fluid src={FamilyThank}/>}
 																 position='left center'/>
 												</List.Item>
 											</Segment>
@@ -183,9 +192,16 @@ const panes = [
 										<List>
 											<Segment compact>
 												<List.Item>
-													<Popup content="This is my family now."
+													<Popup content='This is my family now (minus a few recent additions).'
 																 trigger={<Image fluid src={Fam}/>}
-																 position='left center'/>
+																 position='right center'/>
+												</List.Item>
+											</Segment>
+											<Segment compact>
+												<List.Item>
+													<Popup content='Visiting the House of the Lord, where families are made eternal.'
+																 trigger={<Image fluid src={FamilyTemple}/>}
+																 position='right center'/>
 												</List.Item>
 											</Segment>
 										</List>
@@ -265,7 +281,7 @@ const panes = [
 													<Popup
 														content="This was the hardest climb I've ever done. It's only a 10c (which I still don't believe) It's ALL feet and basically no hands. The only support there is are little dimples and pimples on a seemingly smooth wall. My feet were slipping left and right. BUT, I finished it! Maybe it IS a 10c but mentally it was a 12c for me! And yes, that is me on the wall :)"
 														trigger={<Image fluid src={Worst}/>}
-														position='left center'/>
+														position='right center'/>
 												</List.Item>
 											</Segment>
 										</List>
