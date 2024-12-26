@@ -9,7 +9,7 @@ const QrCode = () => (
 	<div>
 		<Header as='h1' inverted>QR Code Generator</Header>
 		<Segment textAlign='center'>
-			<p style={{fontSize: 18}}>This project was inspired by my wife.
+			<p style={{fontSize: 18}}>This project was inspired by a friend.
 				She's a graphic designer and was looking for QR codes
 				for business cards she was designing for a client.
 				She couldn't find any free generators online

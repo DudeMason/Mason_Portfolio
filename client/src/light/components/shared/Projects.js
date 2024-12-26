@@ -201,6 +201,18 @@ const Projects = () => (
 							</a>
 
 						</Grid.Column>
+						<Grid.Column>
+							<a href='https://replit.com/@MasonMan/PHP-Contact-List' target='_blank' rel='noopener noreferrer'>
+								<List selection verticalAlign='middle' align='center' relaxed='very' size='big'>
+									<List.Item>
+										<Image size='mini' src={LaravelContact} alt='Music'/>
+										<List.Content>
+											<List.Header>PHP Contact List</List.Header>
+										</List.Content>
+									</List.Item>
+								</List>
+							</a>
+						</Grid.Column>
 					</Grid.Row>
 				</Grid>
 			</Segment>

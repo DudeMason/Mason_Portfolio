@@ -21,6 +21,8 @@ const Trip = () => (
 			<p style={{fontSize: 18}} align='center'>
 				The project has been launched on its own website.
 				<br/>
+ 				The backend has been removed, however, so data will not be persisted.
+				<br/>
 				<a href='https://triptrackplan.netlify.app/' target='_blank' rel='noopener noreferrer'>
 					<b>-Check it out here-</b>
 				</a>

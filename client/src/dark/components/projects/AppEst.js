@@ -19,8 +19,12 @@ const AppEst = () => (
 			<p style={{fontSize: 12}}>
 				We were pretty proud of this!
 			</p>
+			<p style={{fontSize: 16}} align='center'>
+				I don't own this project, so I can't really get it hosted without highjacking it. Haha.
+				<br/>
+				The link to the source code is below.
+			</p>
 			<div align='center'>
-				Here are some photos.
 				<PicViewer/>
 			</div>
 			<a href="https://github.com/3mpirical/Final_Project" target='_blank' rel="noopener noreferrer">
