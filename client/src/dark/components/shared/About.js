@@ -1,5 +1,5 @@
 import { Header, Tab, Button, Progress, Divider, Image, Grid,
-	Segment, Container, Popup, List, Modal } from 'semantic-ui-react';
+	Segment, Container, Popup, Modal } from 'semantic-ui-react';
 import React from 'react';
 import Masooon from '../../../images/Masooon.png';
 import DevPoint from '../../../images/Beaker.png';
@@ -157,8 +157,12 @@ const panes = [
 					<Divider/>
 					<br/>
 					<Grid stackable textAlign='center'>
-						<Modal basic closeIcon className='modals'
-									 trigger={<Button size='massive' compact inverted basic color='blue'>Family</Button>}>
+						<Modal
+							basic
+							closeIcon
+							className='modals'
+							trigger={<Button size='massive' compact inverted basic color='blue'>Family</Button>}
+						>
 							<Modal.Header align='center'>
 								Family is my purpose in life!
 								<Divider/>
@@ -169,49 +173,57 @@ const panes = [
 								</Container>
 							</Modal.Header>
 							<Modal.Content>
-								<Grid columns={2} align='center' stackable>
-									<Grid.Column>
-										<List>
+								<Grid columns={2} stackable>
+								  <Grid.Row>
+										<Grid.Column>
 											<Segment compact>
-												<List.Item>
-													<Popup content='This is my family when I was a wee lad.'
-																 trigger={<Image fluid src={FamBam}/>}
-																 position='left center'/>
-												</List.Item>
+												<Popup
+													content='This is my family when I was a wee lad.'
+													trigger={<Image fluid src={FamBam}/>}
+													position='left center'
+												/>
 											</Segment>
+										</Grid.Column>
+										<Grid.Column>
 											<Segment compact>
-												<List.Item>
-													<Popup content='This is my own family unit (with more to come!)'
-																 trigger={<Image fluid src={FamilyThank}/>}
-																 position='left center'/>
-												</List.Item>
-											</Segment>
-										</List>
-									</Grid.Column>
-									<Grid.Column>
-										<List>
+												<Popup
+													content='This is my family now (minus a few recent additions).'
+													trigger={<Image fluid src={Fam}/>}
+													position='right center'
+												/>
+						 				  </Segment>
+										</Grid.Column>
+									</Grid.Row>
+									<Grid.Row>
+										<Grid.Column>
 											<Segment compact>
-												<List.Item>
-													<Popup content='This is my family now (minus a few recent additions).'
-																 trigger={<Image fluid src={Fam}/>}
-																 position='right center'/>
-												</List.Item>
+												<Popup
+													content='This is my own family unit (with more to come!).'
+													trigger={<Image fluid src={FamilyThank}/>}
+													position='left center'
+												/>
 											</Segment>
+										</Grid.Column>
+										<Grid.Column>
 											<Segment compact>
-												<List.Item>
-													<Popup content='Visiting the House of the Lord, where families are made eternal.'
-																 trigger={<Image fluid src={FamilyTemple}/>}
-																 position='right center'/>
-												</List.Item>
-											</Segment>
-										</List>
-									</Grid.Column>
+												<Popup
+													content='Visiting the House of the Lord, where families are made eternal.'
+													trigger={<Image fluid src={FamilyTemple}/>}
+													position='right center'
+												/>
+					 				  	</Segment>
+								  	</Grid.Column>
+									</Grid.Row>
 								</Grid>
 							</Modal.Content>
 						</Modal>
 
-						<Modal basic closeIcon className='modals'
-									 trigger={<Button size='huge' compact inverted basic color='blue'>Rock Climbing</Button>}>
+						<Modal
+							basic
+							closeIcon
+							className='modals'
+							trigger={<Button size='huge' compact inverted basic color='blue'>Rock Climbing</Button>}
+						>
 							<Modal.Header align='center'>
 								I love rock climbing!
 								<Divider/>
@@ -219,73 +231,70 @@ const panes = [
 								<Header as='h3' inverted>I generally climb in the 5.11 range.</Header>
 							</Modal.Header>
 							<Modal.Content>
-								<Grid columns={2} align='center' stackable>
-									<Grid.Column>
-										<List>
+								<Grid columns={2} stackable>
+									<Grid.Row>
+										<Grid.Column>
 											<Segment compact>
-												<List.Item>
-													<Image fluid src={Moab}/>
-												</List.Item>
+												<Image fluid src={Moab}/>
 											</Segment>
+										</Grid.Column>
 
+										<Grid.Column>
 											<Segment compact>
-												<List.Item>
-													<Image fluid src={Victory}/>
-												</List.Item>
+												<Image fluid src={Belaying}/>
 											</Segment>
-										</List>
-									</Grid.Column>
+										</Grid.Column>
+									</Grid.Row>
 
-									<Grid.Column>
-										<List>
+									<Grid.Row>
+										<Grid.Column>
 											<Segment compact>
-												<List.Item>
-													<Image fluid src={Belaying}/>
-												</List.Item>
+												<Image fluid src={Victory}/>
 											</Segment>
+										</Grid.Column>
 
+										<Grid.Column>
 											<Segment compact>
-												<List.Item>
-													<Image fluid src={BackLook}/>
-												</List.Item>
+												<Image fluid src={Focused}/>
 											</Segment>
-										</List>
-									</Grid.Column>
+										</Grid.Column>
+									</Grid.Row>
 
-									<Grid.Column>
-										<List>
+									<Grid.Row>
+										<Grid.Column>
 											<Segment compact>
-												<List.Item>
-													<Image fluid src={Searching}/>
-												</List.Item>
+												<Image fluid src={Searching}/>
 											</Segment>
+										</Grid.Column>
 
+										<Grid.Column>
 											<Segment compact>
-												<List.Item>
-													<Image fluid src={Focused}/>
-												</List.Item>
+												<Image fluid src={BackLook}/>
 											</Segment>
-										</List>
-									</Grid.Column>
+										</Grid.Column>
+									</Grid.Row>
 
-									<Grid.Column>
-										<List>
+									<Grid.Row>
+										<Grid.Column>
 											<Segment compact>
-												<List.Item>
-													<Image fluid src={GothicGirlsClimb}/>
-												</List.Item>
+												<Popup
+													content="This climb has a sketchy ending where it changes from slab to an overhang. While you dangle from a massive arms-only overhang, your last-clipped bolt is on the slab. If you fall during that transition, you're hitting the slab, hard."
+													trigger={<Image fluid src={GothicGirlsClimb}/>}
+													position='left center'
+												/>
 											</Segment>
+										</Grid.Column>
 
+										<Grid.Column>
 											<Segment compact>
-												<List.Item>
-													<Popup
-														content="This was the hardest climb I've ever done. It's only a 10c (which I still don't believe) It's ALL feet and basically no hands. The only support there is are little dimples and pimples on a seemingly smooth wall. My feet were slipping left and right. BUT, I finished it! Maybe it IS a 10c but mentally it was a 12c for me! And yes, that is me on the wall :)"
-														trigger={<Image fluid src={Worst}/>}
-														position='right center'/>
-												</List.Item>
+												<Popup
+													content="This was the hardest climb I've ever done. It's only a 10c (which I still don't believe) It's ALL feet and basically no hands. The only support there is are little dimples and pimples on a seemingly smooth wall. My feet were slipping left and right. BUT, I finished it! Maybe it IS a 10c but mentally it was a 12c for me! And yes, that is me on the wall :)"
+													trigger={<Image fluid src={Worst}/>}
+													position='right center'
+												/>
 											</Segment>
-										</List>
-									</Grid.Column>
+										</Grid.Column>
+									</Grid.Row>
 								</Grid>
 							</Modal.Content>
 						</Modal>

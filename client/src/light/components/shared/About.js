@@ -159,8 +159,12 @@ const panes = [
 					<Divider/>
 					<br/>
 					<Grid stackable textAlign='center'>
-						<Modal closeIcon className='modals' style={{marginTop: 50, padding: 0}}
-									 trigger={<Button size='massive' compact color='facebook'>Family</Button>}>
+						<Modal
+							closeIcon
+							className='modals'
+							style={{marginTop: 50, padding: 0}}
+							trigger={<Button size='massive' compact color='facebook'>Family</Button>}
+						>
 							<Modal.Header align='center'>
 								Family is my purpose in life.
 								<Divider/>
@@ -171,37 +175,49 @@ const panes = [
 								</Container>
 							</Modal.Header>
 							<Modal.Content>
-								<Grid columns={2} align='center' stackable>
-									<Grid.Column>
-										<Segment compact>
-											<Popup content='This is my family when I was a wee lad.'
-														 trigger={<Image fluid src={FamBam}/>}
-														 position='left center'/>
-										</Segment>
-										<Segment compact>
-											<Popup content='This is my own family unit (with more to come!)'
-														 trigger={<Image fluid src={FamilyThank}/>}
-														 position='left center'/>
-										</Segment>
-									</Grid.Column>
-									<Grid.Column>
-										<Segment compact>
-											<Popup content='This is my family now (minus a few recent additions).'
-														 trigger={<Image fluid src={Fam}/>}
-														 position='right center'/>
-										</Segment>
-										<Segment compact>
-											<Popup content='Visiting the House of the Lord, where families are made eternal.'
-														 trigger={<Image fluid src={FamilyTemple}/>}
-														 position='right center'/>
-										</Segment>
-									</Grid.Column>
+								<Grid columns={2} stackable>
+									<Grid.Row>
+										<Grid.Column>
+											<Popup
+												content='This is my family when I was a wee lad.'
+												trigger={<Image fluid bordered rounded src={FamBam}/>}
+												position='left center'
+											/>
+										</Grid.Column>
+										<Grid.Column>
+											<Popup
+												content='This is my family now (minus a few recent additions).'
+												trigger={<Image fluid bordered rounded src={Fam}/>}
+												position='right center'
+											/>
+										</Grid.Column>
+									</Grid.Row>
+									<Grid.Row>
+										<Grid.Column>
+											<Popup
+												content='This is my own family unit (with more to come!).'
+												trigger={<Image fluid bordered rounded src={FamilyThank}/>}
+												position='left center'
+											/>
+										</Grid.Column>
+										<Grid.Column>
+											<Popup
+												content='Visiting the House of the Lord, where families are made eternal.'
+												trigger={<Image fluid bordered rounded src={FamilyTemple}/>}
+												position='right center'
+											/>
+										</Grid.Column>
+									</Grid.Row>
 								</Grid>
 							</Modal.Content>
 						</Modal>
 
-						<Modal closeIcon className='modals' style={{marginTop: 50, padding: 0}}
-									 trigger={<Button size='huge' compact color='facebook'>Rock Climbing</Button>}>
+						<Modal
+							closeIcon
+							className='modals'
+							style={{marginTop: 50, padding: 0}}
+							trigger={<Button size='huge' compact color='facebook'>Rock Climbing</Button>}
+						>
 							<Modal.Header align='center'>
 								I love rock climbing!
 								<Divider/>
@@ -209,73 +225,54 @@ const panes = [
 								<Header as='h3'>I generally climb in the 5.11 range.</Header>
 							</Modal.Header>
 							<Modal.Content>
-								<Grid columns={2} align='center' stackable>
-									<Grid.Column>
-										<List>
-											<Segment compact>
-												<List.Item>
-													<Image fluid src={Moab}/>
-												</List.Item>
-											</Segment>
+								<Grid columns={2} stackable>
+									<Grid.Row>
+										<Grid.Column>
+											<Image fluid bordered rounded src={Moab}/>
+										</Grid.Column>
 
-											<Segment compact>
-												<List.Item>
-													<Image fluid src={Victory}/>
-												</List.Item>
-											</Segment>
-										</List>
-									</Grid.Column>
+										<Grid.Column>
+											<Image fluid bordered rounded src={Belaying}/>
+										</Grid.Column>
+									</Grid.Row>
 
-									<Grid.Column>
-										<List>
-											<Segment compact>
-												<List.Item>
-													<Image fluid src={Belaying}/>
-												</List.Item>
-											</Segment>
+									<Grid.Row>
+										<Grid.Column>
+											<Image fluid bordered rounded src={Victory}/>
+										</Grid.Column>
 
-											<Segment compact>
-												<List.Item>
-													<Image fluid src={BackLook}/>
-												</List.Item>
-											</Segment>
-										</List>
-									</Grid.Column>
+										<Grid.Column>
+											<Image fluid bordered rounded src={Focused}/>
+										</Grid.Column>
+									</Grid.Row>
 
-									<Grid.Column>
-										<List>
-											<Segment compact>
-												<List.Item>
-													<Image fluid src={Searching}/>
-												</List.Item>
-											</Segment>
+									<Grid.Row>
+										<Grid.Column>
+											<Image fluid bordered rounded src={Searching}/>
+										</Grid.Column>
 
-											<Segment compact>
-												<List.Item>
-													<Image fluid src={Focused}/>
-												</List.Item>
-											</Segment>
-										</List>
-									</Grid.Column>
+										<Grid.Column>
+											<Image fluid bordered rounded src={BackLook}/>
+										</Grid.Column>
+									</Grid.Row>
 
-									<Grid.Column>
-										<List>
-											<Segment compact>
-												<List.Item>
-													<Image fluid src={GothicGirlsClimb}/>
-												</List.Item>
-											</Segment>
+									<Grid.Row>
+										<Grid.Column>
+											<Popup
+												content="This climb has a sketchy ending where it changes from slab to an overhang. While you dangle from a massive arms-only overhang, your last-clipped bolt is on the slab. If you fall during that transition, you're hitting the slab, hard."
+												trigger={<Image fluid bordered rounded src={GothicGirlsClimb}/>}
+												position='left center'
+											/>
+										</Grid.Column>
 
-											<Segment compact>
-												<List.Item>
-													<Popup
-														content="This was the hardest climb I've ever done. It's only a 10c (which I still don't believe) It's ALL feet and basically no hands. The only support there is are little dimples and pimples on a seemingly smooth wall. My feet were slipping left and right. BUT, I finished it! Maybe it IS a 10c but mentally it was a 12c for me! And yes, that is me on the wall :)"
-														trigger={<Image fluid src={Worst}/>}
-														position='right center'/>
-												</List.Item>
-											</Segment>
-										</List>
-									</Grid.Column>
+										<Grid.Column>
+											<Popup
+												content="This was the hardest climb I've ever done. It's only a 10c (which I still don't believe) It's ALL feet and basically no hands. The only support there is are little dimples and pimples on a seemingly smooth wall. My feet were slipping left and right. BUT, I finished it! Maybe it IS a 10c but mentally it was a 12c for me! And yes, that is me on the wall :)"
+												trigger={<Image fluid bordered rounded src={Worst}/>}
+												position='right center'
+											/>
+										</Grid.Column>
+									</Grid.Row>
 								</Grid>
 							</Modal.Content>
 						</Modal>
