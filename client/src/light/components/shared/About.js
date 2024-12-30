@@ -8,7 +8,7 @@ import {
 	Grid,
 	Container,
 	Popup,
-	Modal 
+	Modal
 } from 'semantic-ui-react';
 import React from 'react';
 import Masooon from '../../../images/Masooon.png';
@@ -61,7 +61,7 @@ const panes = [
 								</Container>
 							</Grid.Column>
 							<Grid.Column>
-								<Image width='300' src={Masooon}/>
+								<Image width='300' rounded src={Masooon}/>
 							</Grid.Column>
 						</Grid.Row>
 					</Grid>

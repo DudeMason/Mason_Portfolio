@@ -61,7 +61,7 @@ const panes = [
 							</Container>
 						</Grid.Column>
 						<Grid.Column>
-							<Image width='300' src={Masooon}/>
+							<Image width='300' rounded src={Masooon}/>
 						</Grid.Column>
 					</Grid.Row>
 				</Grid>
