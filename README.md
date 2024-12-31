@@ -4,4 +4,4 @@ This is a website representing my portfolio! It contains links to my finished pr
 
 It's written using ReactJS on Rails, using languages such as RUBY, JavaScript, HTML, and CSS.
 
-https://www.masoneyre.com
+https://www.masoneyre.org
