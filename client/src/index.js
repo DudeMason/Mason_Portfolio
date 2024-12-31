@@ -6,10 +6,10 @@ import { BrowserRouter } from 'react-router-dom'
 import BlogProvider from './providers/BlogProvider';
 
 ReactDOM.render(
-    <BlogProvider>
-        <BrowserRouter>
-            <App/>
-        </BrowserRouter>
-    </BlogProvider>,
+  <BlogProvider>
+    <BrowserRouter>
+      <App/>
+    </BrowserRouter>
+  </BlogProvider>,
 	document.getElementById('root')
 );
