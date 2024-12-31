@@ -9,7 +9,7 @@ import AppleMailIcon from '../../../images/AppleMailIcon.png';
 const Contact = () => (
 	<div>
 		<div align='center'>
-			<Segment compact vertical>
+			<Segment compact vertical basic placeholder style={{minHeight: '11rem'}}>
 				<Reveal animated='slide up'>
 					<Reveal.Content visible>
 						<Icon.Group size='large'>

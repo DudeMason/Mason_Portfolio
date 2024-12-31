@@ -20,7 +20,7 @@ const Projects = () => (
 	<div>
 
 		<div align='center'>
-			<Segment compact vertical>
+			<Segment compact vertical basic placeholder style={{minHeight: '11rem'}}>
 				<Reveal animated='fade'>
 					<Reveal.Content visible>
 						<Image style={{width: 120, marginLeft: 8, marginTop: 1}} src={LaptopIcon} alt='Laptop Icon'/>

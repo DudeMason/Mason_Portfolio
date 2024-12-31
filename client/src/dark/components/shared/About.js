@@ -61,7 +61,9 @@ const panes = [
 							</Container>
 						</Grid.Column>
 						<Grid.Column>
-							<Image width='300' rounded src={Masooon}/>
+							<Segment basic placeholder style={{alignItems: 'center'}}>
+								<Image width='300' rounded src={Masooon}/>
+							</Segment>
 						</Grid.Column>
 					</Grid.Row>
 				</Grid>
@@ -76,8 +78,12 @@ const panes = [
 					</Header>
 					<p style={{fontSize: 17}}><u>Communication</u> - <u>Problem Solving</u> - <u>Momentum Creation</u></p>
 					<p style={{fontSize: 17}}><u>Inclusion of Others</u> - <u>Winning Others Over</u></p>
-					<Modal basic closeIcon className='modals'
-								 trigger={<Button size='big' compact color='facebook'>Attributes Report</Button>}>
+					<Modal
+						basic
+						closeIcon
+						className='modals'
+						trigger={<Button size='big' compact color='facebook'>Attributes Report</Button>}
+					>
 						<Modal.Header align='center'>
 							Mason's Gallup Report
 						</Modal.Header>
@@ -145,10 +151,14 @@ const panes = [
 					<Divider/>
 					<Grid columns={2} stackable>
 						<Grid.Column>
-							<Image rounded width='250' src={MasonGrad}/>
+							<Segment basic placeholder style={{alignItems: 'center'}}>
+								<Image rounded width='250' src={MasonGrad}/>
+							</Segment>
 						</Grid.Column>
 						<Grid.Column style={{alignContent: 'center'}}>
-							<Image rounded width='500' src={MasonProject}/>
+							<Segment basic placeholder style={{alignItems: 'center'}}>
+								<Image rounded width='500' src={MasonProject}/>
+							</Segment>
 						</Grid.Column>
 					</Grid>
 					<Divider/>

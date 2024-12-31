@@ -3,7 +3,6 @@ import { Header, Segment, Grid, Divider } from 'semantic-ui-react';
 import Sexy from '../../../dark/components/shared/Sexy';
 
 const Home = () => (
-
 	<>
 		<Segment>
 			<h2><u className='WD'>FULL STACK WEB DEVELOPER</u></h2>
@@ -24,7 +23,9 @@ const Home = () => (
 					</Grid.Column>
 
 					<Grid.Column verticalAlign='middle' align='center'>
-						<Sexy/>
+						<Segment basic placeholder>
+							<Sexy/>
+						</Segment>
 					</Grid.Column>
 
 				</Grid.Row>
