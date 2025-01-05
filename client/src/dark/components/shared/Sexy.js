@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Button, Dimmer, Header, Image } from 'semantic-ui-react'
+import { ButtonGroup, Button, Dimmer, Header, Image } from 'semantic-ui-react'
 import MasonDPL from '../../../images/MasonDPL.png';
 
 export default class Sexy extends Component {
@@ -38,8 +38,10 @@ export default class Sexy extends Component {
 					Is this cool?
 				</Header>
 
-				<Button color='green' onClick={() => this.setState({sexy: false, clicked: true})}>Yes</Button>
-				<Button color='red' onClick={() => this.setState({sexy: true, clicked: true})}>No</Button>
+				<ButtonGroup>
+					<Button positive onClick={() => this.setState({sexy: false, clicked: true})}>Yes</Button>
+					<Button negative onClick={() => this.setState({sexy: true, clicked: true})}>No</Button>
+				</ButtonGroup>
 			</>
 		)
 
