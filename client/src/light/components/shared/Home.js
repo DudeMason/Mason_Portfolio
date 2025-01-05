@@ -24,7 +24,9 @@ const Home = () => (
 
 					<Grid.Column verticalAlign='middle' align='center'>
 						<Segment basic placeholder>
-							<Sexy/>
+							<div>
+								<Sexy/>
+							</div>
 						</Segment>
 					</Grid.Column>
 
