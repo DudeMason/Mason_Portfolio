@@ -35,7 +35,7 @@ export default class Sexy extends Component {
 		const handsome = (
 			<>
 				<Header as='h2' inverted>
-					Is this super cool?
+					Is this cool?
 				</Header>
 
 				<Button color='green' onClick={() => this.setState({sexy: false, clicked: true})}>Yes</Button>
