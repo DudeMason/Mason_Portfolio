@@ -10,9 +10,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd client && npm install --only=dev && npm install && npm run build && cd ..",
-    "deploy": "cp -a client/build/. public/",
-    "heroku-postbuild": "npm run build && npm run deploy && echo 'Client Built'"
+    "build": "cd client && yarn install && yarn build && cd ..",
+    "deploy": "cp -a client/build/. public/"
   },
   "repository": {
     "type": "git",

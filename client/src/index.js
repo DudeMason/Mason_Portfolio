@@ -1,15 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import App from './App';
 import 'semantic-ui-css/semantic.min.css';
 import { BrowserRouter } from 'react-router-dom'
 import BlogProvider from './providers/BlogProvider';
 
-ReactDOM.render(
+const root = createRoot(document.getElementById('root'));
+root.render(
   <BlogProvider>
     <BrowserRouter>
       <App/>
     </BrowserRouter>
-  </BlogProvider>,
-	document.getElementById('root')
+  </BlogProvider>
 );

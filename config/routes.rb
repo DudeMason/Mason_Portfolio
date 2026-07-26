@@ -6,5 +6,5 @@ Rails.application.routes.draw do
 		resources :blogs
 	end
 
-	get '*other', to: 'static#index'
+	get '*other', to: 'static#index', as: :static_index
 end

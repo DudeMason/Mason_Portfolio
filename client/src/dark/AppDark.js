@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'semantic-ui-react';
-import { Switch, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/shared/Navbar';
 import About from './components/shared/About';
 import Home from './components/shared/Home';
@@ -19,20 +19,20 @@ const AppDark = () => (
 	<div className='appDark'>
 		<Navbar/>
 		<Container>
-			<Switch>
-				<Route exact path='/' component={Home}/>
-				<Route exact path='/about' component={About}/>
-				<Route exact path='/projects' component={Projects}/>
-				<Route exact path='/blog' component={Blog}/>
-				<Route exact path='/contact' component={Contact}/>
-				<Route exact path='/qrcode' component={QrCode}/>
-				<Route exact path='/store' component={Store}/>
-				<Route exact path='/casino' component={Casino}/>
-				<Route exact path='/trip' component={Trip}/>
-				<Route exact path='/janitorial' component={Janitorial}/>
-				<Route exact path='/appEst' component={AppEst}/>
-				<Route component={NoMatch}/>
-			</Switch>
+			<Routes>
+				<Route path='/' element={<Home/>}/>
+				<Route path='/about' element={<About/>}/>
+				<Route path='/projects' element={<Projects/>}/>
+				<Route path='/blog' element={<Blog/>}/>
+				<Route path='/contact' element={<Contact/>}/>
+				<Route path='/qrcode' element={<QrCode/>}/>
+				<Route path='/store' element={<Store/>}/>
+				<Route path='/casino' element={<Casino/>}/>
+				<Route path='/trip' element={<Trip/>}/>
+				<Route path='/janitorial' element={<Janitorial/>}/>
+				<Route path='/appEst' element={<AppEst/>}/>
+				<Route path='*' element={<NoMatch/>}/>
+			</Routes>
 		</Container>
 		<div style={{marginTop: 'auto'}}>
 			<p align='center' style={{color: 'white', opacity: .5, paddingTop: 50, paddingBottom: 50}}>
