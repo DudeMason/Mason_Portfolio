@@ -1,0 +1,55 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: portfolio
+      POSTGRES_PASSWORD: portfolio
+      POSTGRES_DB: portfolio_development
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U portfolio"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      RAILS_ENV: development
+      DATABASE_URL: postgres://portfolio:portfolio@db:5432/portfolio_development
+    ports:
+      - "3001:3001"
+    volumes:
+      - .:/app
+      - bundle_cache:/usr/local/bundle
+    stdin_open: true
+    tty: true
+
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile.dev
+    depends_on:
+      - api
+    environment:
+      WDS_SOCKET_PORT: "0"
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./client:/app
+      - client_node_modules:/app/node_modules
+    stdin_open: true
+    tty: true
+
+volumes:
+  db_data:
+  bundle_cache:
+  client_node_modules:

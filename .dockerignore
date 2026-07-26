@@ -1,0 +1,11 @@
+.git
+log/*
+tmp/*
+storage/*
+client/node_modules
+client/build
+node_modules
+public/*
+!public/robots.txt
+.idea
+.DS_Store
