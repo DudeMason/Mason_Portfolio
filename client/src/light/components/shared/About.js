@@ -20,10 +20,10 @@ import Worst from '../../../images/Worst.png';
 import BackLook from '../../../images/BackLook.png'
 import Belaying from '../../../images/Belaying.png';
 import Moab from '../../../images/Moab.png';
-import FamBam from '../../../images/FamBam.png';
-import FamilyThank from '../../../images/FamilyThank.png';
-import Fam from '../../../images/Fam.png';
-import FamilyTemple from '../../../images/FamilyTemple.png';
+// import FamBam from '../../../images/FamBam.png';
+// import FamilyThank from '../../../images/FamilyThank.png';
+// import Fam from '../../../images/Fam.png';
+// import FamilyTemple from '../../../images/FamilyTemple.png';
 import Focused from '../../../images/Focused.png';
 import Gallup1 from '../../../images/Gallup1.png';
 import Gallup2 from '../../../images/Gallup2.png';
