@@ -173,71 +173,71 @@ const panes = [
 			<Tab.Pane attached={false} inverted>
 				<div style={{paddingBottom: 75}}>
 					<Header align='center' as='h2' style={{color: 'white'}}>
-						Click one to see more!
+						Click to see more!
 					</Header>
 					<Divider/>
 					<br/>
 					<Grid stackable textAlign='center'>
-						<Modal
-							basic
-							closeIcon
-							className='modals'
-							trigger={<Button size='massive' compact inverted basic color='blue'>Family</Button>}
-						>
-							<Modal.Header align='center'>
-								Family is my purpose in life!
-								<Divider/>
-								<Container textAlign='center'>
-									<p style={{fontSize: 16}}>
-										My family is very close. We love to spend time together!
-									</p>
-								</Container>
-							</Modal.Header>
-							<Modal.Content>
-								<Grid columns={2} stackable>
-								  <Grid.Row>
-										<Grid.Column>
-											<Segment compact>
-												<Popup
-													content='This is my family when I was a wee lad.'
-													trigger={<Image fluid src={FamBam}/>}
-													position='left center'
-												/>
-											</Segment>
-										</Grid.Column>
-										<Grid.Column>
-											<Segment compact>
-												<Popup
-													content='This is my family now (minus a few recent additions).'
-													trigger={<Image fluid src={Fam}/>}
-													position='right center'
-												/>
-						 				  </Segment>
-										</Grid.Column>
-									</Grid.Row>
-									<Grid.Row>
-										<Grid.Column>
-											<Segment compact>
-												<Popup
-													content='This is my own family unit (with more to come!).'
-													trigger={<Image fluid src={FamilyThank}/>}
-													position='left center'
-												/>
-											</Segment>
-										</Grid.Column>
-										<Grid.Column>
-											<Segment compact>
-												<Popup
-													content='Visiting the House of the Lord, where families are made eternal.'
-													trigger={<Image fluid src={FamilyTemple}/>}
-													position='right center'
-												/>
-					 				  	</Segment>
-								  	</Grid.Column>
-									</Grid.Row>
-								</Grid>
-							</Modal.Content>
-						</Modal>
+						{/*<Modal*/}
+						{/*	basic*/}
+						{/*	closeIcon*/}
+						{/*	className='modals'*/}
+						{/*	trigger={<Button size='massive' compact inverted basic color='blue'>Family</Button>}*/}
+						{/*>*/}
+						{/*	<Modal.Header align='center'>*/}
+						{/*		Family is my purpose in life!*/}
+						{/*		<Divider/>*/}
+						{/*		<Container textAlign='center'>*/}
+						{/*			<p style={{fontSize: 16}}>*/}
+						{/*				My family is very close. We love to spend time together!*/}
+						{/*			</p>*/}
+						{/*		</Container>*/}
+						{/*	</Modal.Header>*/}
+						{/*	<Modal.Content>*/}
+						{/*		<Grid columns={2} stackable>*/}
+						{/*		  <Grid.Row>*/}
+						{/*				<Grid.Column>*/}
+						{/*					<Segment compact>*/}
+						{/*						<Popup*/}
+						{/*							content='This is my family when I was a wee lad.'*/}
+						{/*							trigger={<Image fluid src={FamBam}/>}*/}
+						{/*							position='left center'*/}
+						{/*						/>*/}
+						{/*					</Segment>*/}
+						{/*				</Grid.Column>*/}
+						{/*				<Grid.Column>*/}
+						{/*					<Segment compact>*/}
+						{/*						<Popup*/}
+						{/*							content='This is my family now (minus a few recent additions).'*/}
+						{/*							trigger={<Image fluid src={Fam}/>}*/}
+						{/*							position='right center'*/}
+						{/*						/>*/}
+						{/* 				  </Segment>*/}
+						{/*				</Grid.Column>*/}
+						{/*			</Grid.Row>*/}
+						{/*			<Grid.Row>*/}
+						{/*				<Grid.Column>*/}
+						{/*					<Segment compact>*/}
+						{/*						<Popup*/}
+						{/*							content='This is my own family unit (with more to come!).'*/}
+						{/*							trigger={<Image fluid src={FamilyThank}/>}*/}
+						{/*							position='left center'*/}
+						{/*						/>*/}
+						{/*					</Segment>*/}
+						{/*				</Grid.Column>*/}
+						{/*				<Grid.Column>*/}
+						{/*					<Segment compact>*/}
+						{/*						<Popup*/}
+						{/*							content='Visiting the House of the Lord, where families are made eternal.'*/}
+						{/*							trigger={<Image fluid src={FamilyTemple}/>}*/}
+						{/*							position='right center'*/}
+						{/*						/>*/}
+					 	{/*			  	</Segment>*/}
+						{/*		  	</Grid.Column>*/}
+						{/*			</Grid.Row>*/}
+						{/*		</Grid>*/}
+						{/*	</Modal.Content>*/}
+						{/*</Modal>*/}
 
 						<Modal
 							basic

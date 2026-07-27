@@ -175,63 +175,63 @@ const panes = [
 			<Tab.Pane attached={false} textAlign='center'>
 				<div style={{paddingBottom: 75}} align='center'>
 					<Header align='center' as='h2'>
-						Click one to see more!
+						Click to see more!
 					</Header>
 					<Divider/>
 					<br/>
 					<Grid stackable textAlign='center'>
-						<Modal
-							closeIcon
-							className='modals'
-							style={{marginTop: 50, padding: 0}}
-							trigger={<Button size='massive' compact color='facebook'>Family</Button>}
-						>
-							<Modal.Header align='center'>
-								Family is my purpose in life.
-								<Divider/>
-								<Container textAlign='center'>
-									<p style={{fontSize: 16}}>
-										My family is very close. We love to spend time together!
-									</p>
-								</Container>
-							</Modal.Header>
-							<Modal.Content>
-								<Grid columns={2} stackable>
-									<Grid.Row>
-										<Grid.Column>
-											<Popup
-												content='This is my family when I was a wee lad.'
-												trigger={<Image fluid bordered rounded src={FamBam}/>}
-												position='left center'
-											/>
-										</Grid.Column>
-										<Grid.Column>
-											<Popup
-												content='This is my family now (minus a few recent additions).'
-												trigger={<Image fluid bordered rounded src={Fam}/>}
-												position='right center'
-											/>
-										</Grid.Column>
-									</Grid.Row>
-									<Grid.Row>
-										<Grid.Column>
-											<Popup
-												content='This is my own family unit (with more to come!).'
-												trigger={<Image fluid bordered rounded src={FamilyThank}/>}
-												position='left center'
-											/>
-										</Grid.Column>
-										<Grid.Column>
-											<Popup
-												content='Visiting the House of the Lord, where families are made eternal.'
-												trigger={<Image fluid bordered rounded src={FamilyTemple}/>}
-												position='right center'
-											/>
-										</Grid.Column>
-									</Grid.Row>
-								</Grid>
-							</Modal.Content>
-						</Modal>
+						{/*<Modal*/}
+						{/*	closeIcon*/}
+						{/*	className='modals'*/}
+						{/*	style={{marginTop: 50, padding: 0}}*/}
+						{/*	trigger={<Button size='massive' compact color='facebook'>Family</Button>}*/}
+						{/*>*/}
+						{/*	<Modal.Header align='center'>*/}
+						{/*		Family is my purpose in life.*/}
+						{/*		<Divider/>*/}
+						{/*		<Container textAlign='center'>*/}
+						{/*			<p style={{fontSize: 16}}>*/}
+						{/*				My family is very close. We love to spend time together!*/}
+						{/*			</p>*/}
+						{/*		</Container>*/}
+						{/*	</Modal.Header>*/}
+						{/*	<Modal.Content>*/}
+						{/*		<Grid columns={2} stackable>*/}
+						{/*			<Grid.Row>*/}
+						{/*				<Grid.Column>*/}
+						{/*					<Popup*/}
+						{/*						content='This is my family when I was a wee lad.'*/}
+						{/*						trigger={<Image fluid bordered rounded src={FamBam}/>}*/}
+						{/*						position='left center'*/}
+						{/*					/>*/}
+						{/*				</Grid.Column>*/}
+						{/*				<Grid.Column>*/}
+						{/*					<Popup*/}
+						{/*						content='This is my family now (minus a few recent additions).'*/}
+						{/*						trigger={<Image fluid bordered rounded src={Fam}/>}*/}
+						{/*						position='right center'*/}
+						{/*					/>*/}
+						{/*				</Grid.Column>*/}
+						{/*			</Grid.Row>*/}
+						{/*			<Grid.Row>*/}
+						{/*				<Grid.Column>*/}
+						{/*					<Popup*/}
+						{/*						content='This is my own family unit (with more to come!).'*/}
+						{/*						trigger={<Image fluid bordered rounded src={FamilyThank}/>}*/}
+						{/*						position='left center'*/}
+						{/*					/>*/}
+						{/*				</Grid.Column>*/}
+						{/*				<Grid.Column>*/}
+						{/*					<Popup*/}
+						{/*						content='Visiting the House of the Lord, where families are made eternal.'*/}
+						{/*						trigger={<Image fluid bordered rounded src={FamilyTemple}/>}*/}
+						{/*						position='right center'*/}
+						{/*					/>*/}
+						{/*				</Grid.Column>*/}
+						{/*			</Grid.Row>*/}
+						{/*		</Grid>*/}
+						{/*	</Modal.Content>*/}
+						{/*</Modal>*/}
 
 						<Modal
 							closeIcon
